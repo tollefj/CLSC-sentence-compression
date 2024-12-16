@@ -1,0 +1,2268 @@
+Source: can I feed peanuts to the elephants at your wedding?
+Target: Får jeg gi elefantene peanøtter?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Kan jeg gi jordnøtter?
+Metrics:
+{'bleu': 19.36, 'r1': 0.5, 'r2': 0.2, 'rl': 0.5, 'chrF': 31.22, 'chrf++': 32.52, 'bert_f1': 0.84, 'length': 22.0, 'len_ratio': 0.69}
+- 0.6: Kan jeg gi peanøtter?
+Metrics:
+{'bleu': 24.74, 'r1': 0.67, 'r2': 0.4, 'rl': 0.67, 'chrF': 43.67, 'chrf++': 46.68, 'bert_f1': 0.87, 'length': 21.0, 'len_ratio': 0.66}
+- 0.7: Kan jeg gi peanøtter til elefantene?
+Metrics:
+{'bleu': 16.52, 'r1': 0.71, 'r2': 0.33, 'rl': 0.57, 'chrF': 62.78, 'chrf++': 59.57, 'bert_f1': 0.89, 'length': 36.0, 'len_ratio': 1.12}
+- 0.8: Kan jeg gi peanøtter til elefantene?
+Metrics:
+{'bleu': 16.52, 'r1': 0.71, 'r2': 0.33, 'rl': 0.57, 'chrF': 62.78, 'chrf++': 59.57, 'bert_f1': 0.89, 'length': 36.0, 'len_ratio': 1.12}
+- 0.9: Kan jeg gi peanøtter til elefantene i bryllupet?
+Metrics:
+{'bleu': 11.99, 'r1': 0.63, 'r2': 0.29, 'rl': 0.5, 'chrF': 58.92, 'chrf++': 55.89, 'bert_f1': 0.84, 'length': 48.0, 'len_ratio': 1.5}
+- 1.0: Kan jeg gi peanøtter til elefantene i bryllupet ditt?
+Metrics:
+{'bleu': 10.55, 'r1': 0.59, 'r2': 0.27, 'rl': 0.47, 'chrF': 57.31, 'chrf++': 54.33, 'bert_f1': 0.83, 'length': 53.0, 'len_ratio': 1.66}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Kan jeg gi jordnøtter til elefantene på bryllupet ditt?
+Baseline metrics:
+{'bleu': 9.98, 'r1': 0.47, 'r2': 0.13, 'rl': 0.35, 'chrF': 52.34, 'chrf++': 48.77, 'bert_f1': 0.79, 'length': 55.0, 'len_ratio': 1.72}
+====================================================================================================
+
+Source: of course there'll be elephants it's a stereotype that you feed them peanuts
+Target: Jo, men de får ingen peanøtter.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Selvfølgelig er det elefanter.
+Metrics:
+{'bleu': 5.86, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 17.54, 'chrf++': 14.91, 'bert_f1': 0.69, 'length': 30.0, 'len_ratio': 0.97}
+- 0.6: Selvfølgelig er det elefanter.
+Metrics:
+{'bleu': 5.86, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 17.54, 'chrf++': 14.91, 'bert_f1': 0.69, 'length': 30.0, 'len_ratio': 0.97}
+- 0.7: Selvfølgelig er det elefanter.
+Metrics:
+{'bleu': 5.86, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 17.54, 'chrf++': 14.91, 'bert_f1': 0.69, 'length': 30.0, 'len_ratio': 0.97}
+- 0.8: Selvfølgelig er det elefanter.
+Metrics:
+{'bleu': 5.86, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 17.54, 'chrf++': 14.91, 'bert_f1': 0.69, 'length': 30.0, 'len_ratio': 0.97}
+- 0.9: Selvsagt er det elefanter.
+Metrics:
+{'bleu': 5.86, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 16.11, 'chrf++': 13.8, 'bert_f1': 0.71, 'length': 26.0, 'len_ratio': 0.84}
+- 1.0: Selvfølgelig vil det være elefanter.
+Metrics:
+{'bleu': 5.82, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 16.88, 'chrf++': 14.37, 'bert_f1': 0.69, 'length': 36.0, 'len_ratio': 1.16}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Selvfølgelig vil det være elefanter det er en stereotype som du fôrer dem jordnøtter
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 20.61, 'chrf++': 15.46, 'bert_f1': 0.67, 'length': 84.0, 'len_ratio': 2.71}
+====================================================================================================
+
+Source: thank you Penny and Leonard I was kind of hoping I could sit next to Anu
+Target: Jeg vil sitte med Anu, Leonard.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Takk, Penny og Leonard.
+Metrics:
+{'bleu': 12.87, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 26.91, 'chrf++': 27.01, 'bert_f1': 0.73, 'length': 23.0, 'len_ratio': 0.74}
+- 0.6: Takk, Penny og Leonard.
+Metrics:
+{'bleu': 12.87, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 26.91, 'chrf++': 27.01, 'bert_f1': 0.73, 'length': 23.0, 'len_ratio': 0.74}
+- 0.7: Takk, Penny og Leonard.
+Metrics:
+{'bleu': 12.87, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 26.91, 'chrf++': 27.01, 'bert_f1': 0.73, 'length': 23.0, 'len_ratio': 0.74}
+- 0.8: Takk, Penny og Leonard.
+Metrics:
+{'bleu': 12.87, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 26.91, 'chrf++': 27.01, 'bert_f1': 0.73, 'length': 23.0, 'len_ratio': 0.74}
+- 0.9: Takk Penny og Leonard Jeg håpet jeg kunne sitte ved siden av Anu
+Metrics:
+{'bleu': 4.37, 'r1': 0.4, 'r2': 0.0, 'rl': 0.3, 'chrF': 33.01, 'chrf++': 30.37, 'bert_f1': 0.77, 'length': 64.0, 'len_ratio': 2.06}
+- 1.0: Takk Penny og Leonard Jeg håpet jeg kunne sitte ved siden av Anu
+Metrics:
+{'bleu': 4.37, 'r1': 0.4, 'r2': 0.0, 'rl': 0.3, 'chrF': 33.01, 'chrf++': 30.37, 'bert_f1': 0.77, 'length': 64.0, 'len_ratio': 2.06}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Takk Penny og Leonard Jeg håpet jeg kunne sitte ved siden av Anu
+Baseline metrics:
+{'bleu': 4.37, 'r1': 0.4, 'r2': 0.0, 'rl': 0.3, 'chrF': 33.01, 'chrf++': 30.37, 'bert_f1': 0.77, 'length': 64.0, 'len_ratio': 2.06}
+====================================================================================================
+
+Source: yeah it's just we haven't done it yet and I think it's important to make sure we're compatible before we get married
+Target: Vi bør sjekke at vi passer sammen før vi gifter oss.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi har ikke gjort det ennå.
+Metrics:
+{'bleu': 3.82, 'r1': 0.11, 'r2': 0.0, 'rl': 0.11, 'chrF': 10.61, 'chrf++': 10.23, 'bert_f1': 0.74, 'length': 27.0, 'len_ratio': 0.52}
+- 0.6: Vi har ikke gjort det ennå.
+Metrics:
+{'bleu': 3.82, 'r1': 0.11, 'r2': 0.0, 'rl': 0.11, 'chrF': 10.61, 'chrf++': 10.23, 'bert_f1': 0.74, 'length': 27.0, 'len_ratio': 0.52}
+- 0.7: Ja, men vi har ikke gjort det ennå.
+Metrics:
+{'bleu': 4.09, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 12.44, 'chrf++': 11.5, 'bert_f1': 0.73, 'length': 35.0, 'len_ratio': 0.67}
+- 0.8: Vi har ikke gjort det ennå, og det er viktig å sikre at vi er kompatible.
+Metrics:
+{'bleu': 5.11, 'r1': 0.21, 'r2': 0.08, 'rl': 0.21, 'chrF': 21.34, 'chrf++': 20.82, 'bert_f1': 0.75, 'length': 73.0, 'len_ratio': 1.4}
+- 0.9: Men vi har ikke gjort det ennå. Det er viktig å sikre at vi er kompatible før vi gifter oss.
+Metrics:
+{'bleu': 18.6, 'r1': 0.48, 'r2': 0.32, 'rl': 0.48, 'chrF': 40.6, 'chrf++': 41.52, 'bert_f1': 0.82, 'length': 92.0, 'len_ratio': 1.77}
+- 1.0: Ja, men vi har ikke gjort det ennå, og jeg tror det er viktig å være kompatibel før vi gifter oss.
+Metrics:
+{'bleu': 15.42, 'r1': 0.34, 'r2': 0.24, 'rl': 0.34, 'chrF': 38.3, 'chrf++': 37.67, 'bert_f1': 0.79, 'length': 98.0, 'len_ratio': 1.88}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Ja det er bare vi ikke har gjort det ennå og jeg tror det er viktig å være sikker på at vi er kompatible før vi gifter oss
+Baseline metrics:
+{'bleu': 9.94, 'r1': 0.38, 'r2': 0.25, 'rl': 0.38, 'chrF': 34.08, 'chrf++': 34.02, 'bert_f1': 0.79, 'length': 122.0, 'len_ratio': 2.35}
+====================================================================================================
+
+Source: it doesn't have to be tonight how about this weekend? I can get us a room at my hotel
+Target: Det må ikke skje i kveld. Jeg kan ordne rom på hotellet i helgen.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hva med helgen i kveld?
+Metrics:
+{'bleu': 3.39, 'r1': 0.32, 'r2': 0.12, 'rl': 0.21, 'chrF': 17.5, 'chrf++': 16.77, 'bert_f1': 0.72, 'length': 23.0, 'len_ratio': 0.35}
+- 0.6: Hva med helgen i kveld?
+Metrics:
+{'bleu': 3.39, 'r1': 0.32, 'r2': 0.12, 'rl': 0.21, 'chrF': 17.5, 'chrf++': 16.77, 'bert_f1': 0.72, 'length': 23.0, 'len_ratio': 0.35}
+- 0.7: Hva med helgen i kveld?
+Metrics:
+{'bleu': 3.39, 'r1': 0.32, 'r2': 0.12, 'rl': 0.21, 'chrF': 17.5, 'chrf++': 16.77, 'bert_f1': 0.72, 'length': 23.0, 'len_ratio': 0.35}
+- 0.8: Hva med helgen i kveld?
+Metrics:
+{'bleu': 3.39, 'r1': 0.32, 'r2': 0.12, 'rl': 0.21, 'chrF': 17.5, 'chrf++': 16.77, 'bert_f1': 0.72, 'length': 23.0, 'len_ratio': 0.35}
+- 0.9: Jeg kan skaffe oss et rom på hotellet mitt.
+Metrics:
+{'bleu': 11.28, 'r1': 0.43, 'r2': 0.29, 'rl': 0.43, 'chrF': 34.63, 'chrf++': 33.76, 'bert_f1': 0.8, 'length': 43.0, 'len_ratio': 0.66}
+- 1.0: Jeg kan skaffe oss et rom på hotellet mitt.
+Metrics:
+{'bleu': 11.28, 'r1': 0.43, 'r2': 0.29, 'rl': 0.43, 'chrF': 34.63, 'chrf++': 33.76, 'bert_f1': 0.8, 'length': 43.0, 'len_ratio': 0.66}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg kan skaffe oss et rom på hotellet mitt
+Baseline metrics:
+{'bleu': 10.25, 'r1': 0.43, 'r2': 0.29, 'rl': 0.43, 'chrF': 34.44, 'chrf++': 32.88, 'bert_f1': 0.75, 'length': 42.0, 'len_ratio': 0.65}
+====================================================================================================
+
+Source: okay, sounds nice
+Target: Ja!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ok.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 0.0, 'chrf++': 0.0, 'bert_f1': 0.67, 'length': 3.0, 'len_ratio': 1.0}
+- 0.6: Ok.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 0.0, 'chrf++': 0.0, 'bert_f1': 0.67, 'length': 3.0, 'len_ratio': 1.0}
+- 0.7: Ok.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 0.0, 'chrf++': 0.0, 'bert_f1': 0.67, 'length': 3.0, 'len_ratio': 1.0}
+- 0.8: Høres bra ut.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 7.25, 'chrf++': 4.35, 'bert_f1': 0.64, 'length': 13.0, 'len_ratio': 4.33}
+- 0.9: Høres fint ut.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 0.0, 'chrf++': 0.0, 'bert_f1': 0.63, 'length': 14.0, 'len_ratio': 4.67}
+- 1.0: Høres fint ut.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 0.0, 'chrf++': 0.0, 'bert_f1': 0.63, 'length': 14.0, 'len_ratio': 4.67}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Ok, lyder fint
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 0.0, 'chrf++': 0.0, 'bert_f1': 0.65, 'length': 14.0, 'len_ratio': 4.67}
+====================================================================================================
+
+Source: I am not worried if anything I'm overconfident
+Target: Nei, heller for selvsikker.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg er ikke bekymret.
+Metrics:
+{'bleu': 8.75, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.54, 'chrf++': 12.32, 'bert_f1': 0.73, 'length': 21.0, 'len_ratio': 0.78}
+- 0.6: Jeg er ikke bekymret.
+Metrics:
+{'bleu': 8.75, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.54, 'chrf++': 12.32, 'bert_f1': 0.73, 'length': 21.0, 'len_ratio': 0.78}
+- 0.7: Jeg er ikke bekymret.
+Metrics:
+{'bleu': 8.75, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.54, 'chrf++': 12.32, 'bert_f1': 0.73, 'length': 21.0, 'len_ratio': 0.78}
+- 0.8: Jeg er ikke bekymret.
+Metrics:
+{'bleu': 8.75, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.54, 'chrf++': 12.32, 'bert_f1': 0.73, 'length': 21.0, 'len_ratio': 0.78}
+- 0.9: Jeg er ikke bekymret for noe jeg er for selvsikker
+Metrics:
+{'bleu': 8.39, 'r1': 0.29, 'r2': 0.17, 'rl': 0.29, 'chrF': 51.8, 'chrf++': 44.69, 'bert_f1': 0.75, 'length': 50.0, 'len_ratio': 1.85}
+- 1.0: Jeg er ikke bekymret om noe jeg er for selvsikker
+Metrics:
+{'bleu': 8.39, 'r1': 0.29, 'r2': 0.17, 'rl': 0.29, 'chrF': 52.22, 'chrf++': 45.0, 'bert_f1': 0.75, 'length': 49.0, 'len_ratio': 1.81}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg er ikke bekymret hvis noe jeg er over tillit
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 16.99, 'chrf++': 12.74, 'bert_f1': 0.69, 'length': 48.0, 'len_ratio': 1.78}
+====================================================================================================
+
+Source: hey guys before Anu gets here can I talk about the seating situation
+Target: Kan vi snakke om sitteplassene?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hei, karer.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.53, 'chrf++': 2.65, 'bert_f1': 0.6, 'length': 11.0, 'len_ratio': 0.35}
+- 0.6: Hei, karer.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.53, 'chrf++': 2.65, 'bert_f1': 0.6, 'length': 11.0, 'len_ratio': 0.35}
+- 0.7: Kan jeg snakke om sittesituasjonen?
+Metrics:
+{'bleu': 19.3, 'r1': 0.6, 'r2': 0.25, 'rl': 0.6, 'chrF': 51.58, 'chrf++': 49.55, 'bert_f1': 0.89, 'length': 35.0, 'len_ratio': 1.13}
+- 0.8: Hei, karer.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.53, 'chrf++': 2.65, 'bert_f1': 0.6, 'length': 11.0, 'len_ratio': 0.35}
+- 0.9: Hei, karer før Anu kommer.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 7.08, 'chrf++': 5.31, 'bert_f1': 0.66, 'length': 26.0, 'len_ratio': 0.84}
+- 1.0: Hei, karer før Anu kommer.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 7.08, 'chrf++': 5.31, 'bert_f1': 0.66, 'length': 26.0, 'len_ratio': 0.84}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Hei gutter før Anu kommer hit kan jeg snakke om sittestillingen
+Baseline metrics:
+{'bleu': 7.5, 'r1': 0.35, 'r2': 0.13, 'rl': 0.35, 'chrF': 40.36, 'chrf++': 35.93, 'bert_f1': 0.73, 'length': 63.0, 'len_ratio': 2.03}
+====================================================================================================
+
+Source: ah yes I wanted to get a jump on planning a day of fun for you
+Target: Jeg planlegger en artig dag for deg.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.07, 'chrf++': 5.42, 'bert_f1': 0.58, 'length': 3.0, 'len_ratio': 0.08}
+- 0.6: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.07, 'chrf++': 5.42, 'bert_f1': 0.58, 'length': 3.0, 'len_ratio': 0.08}
+- 0.7: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.07, 'chrf++': 5.42, 'bert_f1': 0.58, 'length': 3.0, 'len_ratio': 0.08}
+- 0.8: Ja, jeg ville ha en dag med moro.
+Metrics:
+{'bleu': 5.52, 'r1': 0.4, 'r2': 0.0, 'rl': 0.4, 'chrF': 15.0, 'chrf++': 15.78, 'bert_f1': 0.77, 'length': 33.0, 'len_ratio': 0.92}
+- 0.9: Jeg ville ha et hopp på å planlegge en morodag for deg.
+Metrics:
+{'bleu': 13.07, 'r1': 0.44, 'r2': 0.12, 'rl': 0.44, 'chrF': 52.4, 'chrf++': 49.39, 'bert_f1': 0.84, 'length': 55.0, 'len_ratio': 1.53}
+- 1.0: Ja, jeg ville ha et hopp på å planlegge en dag med moro for deg
+Metrics:
+{'bleu': 5.82, 'r1': 0.48, 'r2': 0.11, 'rl': 0.48, 'chrF': 39.92, 'chrf++': 36.65, 'bert_f1': 0.8, 'length': 63.0, 'len_ratio': 1.75}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: ah ja jeg ønsket å få et hopp på planlegging en dag av moro for deg
+Baseline metrics:
+{'bleu': 5.82, 'r1': 0.45, 'r2': 0.1, 'rl': 0.45, 'chrF': 37.03, 'chrf++': 34.46, 'bert_f1': 0.76, 'length': 67.0, 'len_ratio': 1.86}
+====================================================================================================
+
+Source: ah to be honest I'm pretty anxious I mean this is the woman I'm marrying what if it's no good?
+Target: Jeg er ganske nervøs. Vi skal jo gifte oss. Tenk om det ikke blir bra.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hva om det ikke hjelper?
+Metrics:
+{'bleu': 4.09, 'r1': 0.29, 'r2': 0.21, 'rl': 0.29, 'chrF': 16.67, 'chrf++': 16.62, 'bert_f1': 0.75, 'length': 24.0, 'len_ratio': 0.34}
+- 0.6: Hva om det ikke hjelper?
+Metrics:
+{'bleu': 4.09, 'r1': 0.29, 'r2': 0.21, 'rl': 0.29, 'chrF': 16.67, 'chrf++': 16.62, 'bert_f1': 0.75, 'length': 24.0, 'len_ratio': 0.34}
+- 0.7: Jeg er bekymret for at jeg gifter meg med henne.
+Metrics:
+{'bleu': 4.39, 'r1': 0.15, 'r2': 0.08, 'rl': 0.15, 'chrF': 18.03, 'chrf++': 16.59, 'bert_f1': 0.77, 'length': 48.0, 'len_ratio': 0.69}
+- 0.8: Ærlig talt... Jeg er ganske nervøs.
+Metrics:
+{'bleu': 19.2, 'r1': 0.43, 'r2': 0.38, 'rl': 0.43, 'chrF': 35.96, 'chrf++': 35.01, 'bert_f1': 0.79, 'length': 35.0, 'len_ratio': 0.5}
+- 0.9: Ærlig talt, jeg er ganske bekymret. Jeg mener at dette er kvinnen jeg skal gifte meg med.
+Metrics:
+{'bleu': 5.24, 'r1': 0.3, 'r2': 0.13, 'rl': 0.3, 'chrF': 31.6, 'chrf++': 29.2, 'bert_f1': 0.77, 'length': 89.0, 'len_ratio': 1.27}
+- 1.0: Ærlig talt er jeg bekymret. Jeg mener at dette er kvinnen jeg skal gifte meg med.
+Metrics:
+{'bleu': 3.36, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 21.24, 'chrf++': 20.12, 'bert_f1': 0.74, 'length': 81.0, 'len_ratio': 1.16}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: ah for å være ærlig Jeg er ganske engstelig Jeg mener dette er kvinnen jeg gifter meg hva om det ikke er bra?
+Baseline metrics:
+{'bleu': 10.24, 'r1': 0.36, 'r2': 0.22, 'rl': 0.36, 'chrF': 38.03, 'chrf++': 35.86, 'bert_f1': 0.76, 'length': 109.0, 'len_ratio': 1.56}
+====================================================================================================
+
+Source: just don't put so much pressure on it it - it's always a little awkward in the beginning I remember the first time I slept with Penny.
+Target: Det er alltid litt kleint I starten. Jeg husker den første gangen vår.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg husker første gang jeg lå med Penny.
+Metrics:
+{'bleu': 5.82, 'r1': 0.33, 'r2': 0.18, 'rl': 0.33, 'chrF': 30.68, 'chrf++': 27.61, 'bert_f1': 0.77, 'length': 40.0, 'len_ratio': 0.57}
+- 0.6: Jeg husker første gang jeg lå med Penny.
+Metrics:
+{'bleu': 5.82, 'r1': 0.33, 'r2': 0.18, 'rl': 0.33, 'chrF': 30.68, 'chrf++': 27.61, 'bert_f1': 0.77, 'length': 40.0, 'len_ratio': 0.57}
+- 0.7: Jeg husker første gang jeg lå med Penny.
+Metrics:
+{'bleu': 5.82, 'r1': 0.33, 'r2': 0.18, 'rl': 0.33, 'chrF': 30.68, 'chrf++': 27.61, 'bert_f1': 0.77, 'length': 40.0, 'len_ratio': 0.57}
+- 0.8: Ikke legg så mye press på det. Det er alltid litt pinlig i begynnelsen.
+Metrics:
+{'bleu': 16.94, 'r1': 0.34, 'r2': 0.22, 'rl': 0.34, 'chrF': 33.13, 'chrf++': 32.43, 'bert_f1': 0.76, 'length': 71.0, 'len_ratio': 1.01}
+- 0.9: Jeg husker at jeg lå med Penny.
+Metrics:
+{'bleu': 5.1, 'r1': 0.18, 'r2': 0.1, 'rl': 0.18, 'chrF': 18.41, 'chrf++': 17.57, 'bert_f1': 0.75, 'length': 31.0, 'len_ratio': 0.44}
+- 1.0: Jeg husker første gang jeg lå med Penny.
+Metrics:
+{'bleu': 5.82, 'r1': 0.33, 'r2': 0.18, 'rl': 0.33, 'chrF': 30.68, 'chrf++': 27.61, 'bert_f1': 0.77, 'length': 40.0, 'len_ratio': 0.57}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Bare ikke sette så mye press på det - det er alltid litt vanskelig i begynnelsen jeg husker første gang jeg sov med Penny.
+Baseline metrics:
+{'bleu': 6.67, 'r1': 0.46, 'r2': 0.27, 'rl': 0.46, 'chrF': 45.35, 'chrf++': 39.99, 'bert_f1': 0.78, 'length': 122.0, 'len_ratio': 1.74}
+====================================================================================================
+
+Source: by the way Anu is Indian she's gonna know there's no sexual move called the screeching lotus
+Target: Og Anu vet nok at det ikke er noe som heter skrikende lotus.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Anu er indisk.
+Metrics:
+{'bleu': 1.73, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 7.84, 'chrf++': 9.01, 'bert_f1': 0.72, 'length': 14.0, 'len_ratio': 0.23}
+- 0.6: Anu er indisk.
+Metrics:
+{'bleu': 1.73, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 7.84, 'chrf++': 9.01, 'bert_f1': 0.72, 'length': 14.0, 'len_ratio': 0.23}
+- 0.7: Anu er indianer.
+Metrics:
+{'bleu': 1.73, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 8.58, 'chrf++': 9.56, 'bert_f1': 0.71, 'length': 16.0, 'len_ratio': 0.27}
+- 0.8: Anu er indianer.
+Metrics:
+{'bleu': 1.73, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 8.58, 'chrf++': 9.56, 'bert_f1': 0.71, 'length': 16.0, 'len_ratio': 0.27}
+- 0.9: Anu er indianer. Hun vil vite at det ikke fins noe seksuelt trekk.
+Metrics:
+{'bleu': 12.09, 'r1': 0.46, 'r2': 0.17, 'rl': 0.38, 'chrF': 29.87, 'chrf++': 30.46, 'bert_f1': 0.78, 'length': 66.0, 'len_ratio': 1.1}
+- 1.0: Forresten, Anu er indianer, vil hun vite at det ikke fins noe seksuelt trekk som kalles forkrekkende lotus
+Metrics:
+{'bleu': 9.11, 'r1': 0.52, 'r2': 0.14, 'rl': 0.45, 'chrF': 39.08, 'chrf++': 37.75, 'bert_f1': 0.78, 'length': 106.0, 'len_ratio': 1.77}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: forresten Anu er indisk hun kommer til å vite at det ikke er noen seksuelle trekk kalt forkrøftende lotus
+Baseline metrics:
+{'bleu': 14.03, 'r1': 0.37, 'r2': 0.2, 'rl': 0.37, 'chrF': 43.83, 'chrf++': 40.67, 'bert_f1': 0.77, 'length': 105.0, 'len_ratio': 1.75}
+====================================================================================================
+
+Source: hey have you checked the dates on these? they're all expired
+Target: Disse har gått ut på dato.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Har du sjekket datoene?
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 14.09, 'chrf++': 10.57, 'bert_f1': 0.64, 'length': 23.0, 'len_ratio': 0.88}
+- 0.6: Har du sjekket datoene?
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 14.09, 'chrf++': 10.57, 'bert_f1': 0.64, 'length': 23.0, 'len_ratio': 0.88}
+- 0.7: Har du sjekket datoene?
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 14.09, 'chrf++': 10.57, 'bert_f1': 0.64, 'length': 23.0, 'len_ratio': 0.88}
+- 0.8: Har du sjekket datoene?
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 14.09, 'chrf++': 10.57, 'bert_f1': 0.64, 'length': 23.0, 'len_ratio': 0.88}
+- 0.9: Har du sjekket datoene?
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 14.09, 'chrf++': 10.57, 'bert_f1': 0.64, 'length': 23.0, 'len_ratio': 0.88}
+- 1.0: Har du sjekket datoene?
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 14.09, 'chrf++': 10.57, 'bert_f1': 0.64, 'length': 23.0, 'len_ratio': 0.88}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Har du sjekket datoene?
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 14.09, 'chrf++': 10.57, 'bert_f1': 0.64, 'length': 23.0, 'len_ratio': 0.88}
+====================================================================================================
+
+Source: oh father in-law-son in-law-bonding
+Target: Vi knytter bånd.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 2.82, 'chrf++': 7.33, 'bert_f1': 0.64, 'length': 3.0, 'len_ratio': 0.19}
+- 0.6: Svigerfar
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 5.24, 'chrf++': 4.49, 'bert_f1': 0.66, 'length': 9.0, 'len_ratio': 0.56}
+- 0.7: Å, svigersønn
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 7.45, 'chrf++': 5.59, 'bert_f1': 0.68, 'length': 13.0, 'len_ratio': 0.81}
+- 0.8: Svigerfar
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 5.24, 'chrf++': 4.49, 'bert_f1': 0.66, 'length': 9.0, 'len_ratio': 0.56}
+- 0.9: Svigerfar
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 5.24, 'chrf++': 4.49, 'bert_f1': 0.66, 'length': 9.0, 'len_ratio': 0.56}
+- 1.0: Å, svigersønn i svigerbonding
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 11.52, 'chrf++': 8.64, 'bert_f1': 0.66, 'length': 29.0, 'len_ratio': 1.81}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: oh svigerfar-søn i-svig-bonding
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 8.95, 'chrf++': 6.71, 'bert_f1': 0.62, 'length': 31.0, 'len_ratio': 1.94}
+====================================================================================================
+
+Source: Raj it's gonna be okay look sex isn't the most important thing in a relationship
+Target: Det ordner seg. Sex er ikke alt.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Det er ikke viktig å se sex.
+Metrics:
+{'bleu': 11.59, 'r1': 0.62, 'r2': 0.18, 'rl': 0.46, 'chrF': 25.02, 'chrf++': 26.05, 'bert_f1': 0.76, 'length': 28.0, 'len_ratio': 0.88}
+- 0.6: Det er ikke viktig å se sex.
+Metrics:
+{'bleu': 11.59, 'r1': 0.62, 'r2': 0.18, 'rl': 0.46, 'chrF': 25.02, 'chrf++': 26.05, 'bert_f1': 0.76, 'length': 28.0, 'len_ratio': 0.88}
+- 0.7: Det er ikke viktig å se sex.
+Metrics:
+{'bleu': 11.59, 'r1': 0.62, 'r2': 0.18, 'rl': 0.46, 'chrF': 25.02, 'chrf++': 26.05, 'bert_f1': 0.76, 'length': 28.0, 'len_ratio': 0.88}
+- 0.8: Det er ikke viktig å se sex.
+Metrics:
+{'bleu': 11.59, 'r1': 0.62, 'r2': 0.18, 'rl': 0.46, 'chrF': 25.02, 'chrf++': 26.05, 'bert_f1': 0.76, 'length': 28.0, 'len_ratio': 0.88}
+- 0.9: Raj, sex er ikke det viktigste i et forhold.
+Metrics:
+{'bleu': 8.3, 'r1': 0.5, 'r2': 0.29, 'rl': 0.38, 'chrF': 30.81, 'chrf++': 28.6, 'bert_f1': 0.78, 'length': 44.0, 'len_ratio': 1.38}
+- 1.0: Raj, sex er ikke det viktigste i et forhold.
+Metrics:
+{'bleu': 8.3, 'r1': 0.5, 'r2': 0.29, 'rl': 0.38, 'chrF': 30.81, 'chrf++': 28.6, 'bert_f1': 0.78, 'length': 44.0, 'len_ratio': 1.38}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Raj det kommer til å bli ok se sex er ikke det viktigste i et forhold
+Baseline metrics:
+{'bleu': 4.89, 'r1': 0.36, 'r2': 0.2, 'rl': 0.36, 'chrF': 27.66, 'chrf++': 24.5, 'bert_f1': 0.71, 'length': 69.0, 'len_ratio': 2.16}
+====================================================================================================
+
+Source: stop it you're acting weird and it's freaking me out
+Target: Slutt! Du gjør meg ille til mote!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ikke vær redd.
+Metrics:
+{'bleu': 0.0, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 2.08, 'chrf++': 1.56, 'bert_f1': 0.69, 'length': 14.0, 'len_ratio': 0.42}
+- 0.6: Ikke vær redd.
+Metrics:
+{'bleu': 0.0, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 2.08, 'chrf++': 1.56, 'bert_f1': 0.69, 'length': 14.0, 'len_ratio': 0.42}
+- 0.7: Ikke vær redd.
+Metrics:
+{'bleu': 0.0, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 2.08, 'chrf++': 1.56, 'bert_f1': 0.69, 'length': 14.0, 'len_ratio': 0.42}
+- 0.8: Slutt å oppføre deg rart.
+Metrics:
+{'bleu': 4.92, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 16.11, 'chrf++': 13.58, 'bert_f1': 0.73, 'length': 25.0, 'len_ratio': 0.76}
+- 0.9: Slutt å oppføre deg rart.
+Metrics:
+{'bleu': 4.92, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 16.11, 'chrf++': 13.58, 'bert_f1': 0.73, 'length': 25.0, 'len_ratio': 0.76}
+- 1.0: Slutt å oppføre deg rart.
+Metrics:
+{'bleu': 4.92, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 16.11, 'chrf++': 13.58, 'bert_f1': 0.73, 'length': 25.0, 'len_ratio': 0.76}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: stopp det du oppfører deg rart og det er skremt meg
+Baseline metrics:
+{'bleu': 3.75, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 11.88, 'chrf++': 10.25, 'bert_f1': 0.69, 'length': 51.0, 'len_ratio': 1.55}
+====================================================================================================
+
+Source: yeah don't even get me started on unsolved mysteries
+Target: Og ikke snakk om uløselige mysterier
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.31, 'chrf++': 0.79, 'bert_f1': 0.62, 'length': 3.0, 'len_ratio': 0.08}
+- 0.6: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.31, 'chrf++': 0.79, 'bert_f1': 0.62, 'length': 3.0, 'len_ratio': 0.08}
+- 0.7: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.31, 'chrf++': 0.79, 'bert_f1': 0.62, 'length': 3.0, 'len_ratio': 0.08}
+- 0.8: Ikke engang få meg i gang.
+Metrics:
+{'bleu': 0.0, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 9.32, 'chrf++': 6.99, 'bert_f1': 0.68, 'length': 26.0, 'len_ratio': 0.72}
+- 0.9: Ikke få meg til å begynne på uløste mysterier
+Metrics:
+{'bleu': 4.77, 'r1': 0.38, 'r2': 0.0, 'rl': 0.38, 'chrF': 37.15, 'chrf++': 29.77, 'bert_f1': 0.8, 'length': 45.0, 'len_ratio': 1.25}
+- 1.0: Ikke få meg til å begynne på uløste mysterier
+Metrics:
+{'bleu': 4.77, 'r1': 0.38, 'r2': 0.0, 'rl': 0.38, 'chrF': 37.15, 'chrf++': 29.77, 'bert_f1': 0.8, 'length': 45.0, 'len_ratio': 1.25}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: ja ikke engang få meg i gang på uløst mysterier
+Baseline metrics:
+{'bleu': 4.99, 'r1': 0.33, 'r2': 0.0, 'rl': 0.33, 'chrF': 37.29, 'chrf++': 31.69, 'bert_f1': 0.79, 'length': 47.0, 'len_ratio': 1.31}
+====================================================================================================
+
+Source: okay you wanted the truth here it is
+Target: Greit, her er sannheten.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ok.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.92, 'chrf++': 5.03, 'bert_f1': 0.62, 'length': 3.0, 'len_ratio': 0.12}
+- 0.6: Ok.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.92, 'chrf++': 5.03, 'bert_f1': 0.62, 'length': 3.0, 'len_ratio': 0.12}
+- 0.7: Du ville ha sannheten.
+Metrics:
+{'bleu': 17.49, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 43.33, 'chrf++': 39.42, 'bert_f1': 0.79, 'length': 22.0, 'len_ratio': 0.92}
+- 0.8: Du ville ha sannheten her.
+Metrics:
+{'bleu': 10.68, 'r1': 0.44, 'r2': 0.0, 'rl': 0.22, 'chrF': 41.44, 'chrf++': 37.33, 'bert_f1': 0.78, 'length': 26.0, 'len_ratio': 1.08}
+- 0.9: Du ville ha sannheten her.
+Metrics:
+{'bleu': 10.68, 'r1': 0.44, 'r2': 0.0, 'rl': 0.22, 'chrF': 41.44, 'chrf++': 37.33, 'bert_f1': 0.78, 'length': 26.0, 'len_ratio': 1.08}
+- 1.0: Du ville ha sannheten her.
+Metrics:
+{'bleu': 10.68, 'r1': 0.44, 'r2': 0.0, 'rl': 0.22, 'chrF': 41.44, 'chrf++': 37.33, 'bert_f1': 0.78, 'length': 26.0, 'len_ratio': 1.08}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: OK du ønsket sannheten her det er
+Baseline metrics:
+{'bleu': 8.64, 'r1': 0.55, 'r2': 0.0, 'rl': 0.36, 'chrF': 40.93, 'chrf++': 36.76, 'bert_f1': 0.7, 'length': 33.0, 'len_ratio': 1.38}
+====================================================================================================
+
+Source: oh Anu for most of my life I got so nervous around women that I couldn't talk to them without alcohol
+Target: Størsteparten av livet har jeg ikke greid å prate med damer uten alkohol
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg var så nervøs for kvinner at jeg ikke kunne snakke med dem.
+Metrics:
+{'bleu': 6.29, 'r1': 0.22, 'r2': 0.08, 'rl': 0.22, 'chrF': 22.17, 'chrf++': 20.52, 'bert_f1': 0.7, 'length': 63.0, 'len_ratio': 0.88}
+- 0.6: Jeg var så nervøs for kvinner at jeg ikke kunne snakke med dem.
+Metrics:
+{'bleu': 6.29, 'r1': 0.22, 'r2': 0.08, 'rl': 0.22, 'chrF': 22.17, 'chrf++': 20.52, 'bert_f1': 0.7, 'length': 63.0, 'len_ratio': 0.88}
+- 0.7: Jeg var så nervøs for kvinner at jeg ikke kunne snakke med dem uten alkohol.
+Metrics:
+{'bleu': 7.31, 'r1': 0.34, 'r2': 0.15, 'rl': 0.34, 'chrF': 34.85, 'chrf++': 32.75, 'bert_f1': 0.72, 'length': 76.0, 'len_ratio': 1.06}
+- 0.8: Jeg ble så nervøs for kvinner at jeg ikke kunne snakke med dem uten alkohol.
+Metrics:
+{'bleu': 7.31, 'r1': 0.34, 'r2': 0.15, 'rl': 0.34, 'chrF': 34.02, 'chrf++': 32.12, 'bert_f1': 0.72, 'length': 76.0, 'len_ratio': 1.06}
+- 0.9: Jeg ble så nervøs for kvinner at jeg ikke kunne snakke med dem uten alkohol.
+Metrics:
+{'bleu': 7.31, 'r1': 0.34, 'r2': 0.15, 'rl': 0.34, 'chrF': 34.02, 'chrf++': 32.12, 'bert_f1': 0.72, 'length': 76.0, 'len_ratio': 1.06}
+- 1.0: Jeg ble så nervøs for kvinner at jeg ikke kunne snakke med dem uten alkohol.
+Metrics:
+{'bleu': 7.31, 'r1': 0.34, 'r2': 0.15, 'rl': 0.34, 'chrF': 34.02, 'chrf++': 32.12, 'bert_f1': 0.72, 'length': 76.0, 'len_ratio': 1.06}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg ble så nervøs rundt kvinner at jeg ikke kunne snakke med dem uten alkohol.
+Baseline metrics:
+{'bleu': 7.31, 'r1': 0.34, 'r2': 0.15, 'rl': 0.34, 'chrF': 34.61, 'chrf++': 32.56, 'bert_f1': 0.72, 'length': 78.0, 'len_ratio': 1.08}
+====================================================================================================
+
+Source: so you've been drunk every time we've seen each other?
+Target: Har du vært full når vi har møttes?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Har du vært full?
+Metrics:
+{'bleu': 31.77, 'r1': 0.62, 'r2': 0.57, 'rl': 0.62, 'chrF': 46.64, 'chrf++': 47.84, 'bert_f1': 0.89, 'length': 17.0, 'len_ratio': 0.49}
+- 0.6: Har du vært full hver gang?
+Metrics:
+{'bleu': 32.67, 'r1': 0.56, 'r2': 0.5, 'rl': 0.56, 'chrF': 47.28, 'chrf++': 47.66, 'bert_f1': 0.87, 'length': 27.0, 'len_ratio': 0.77}
+- 0.7: Har du vært full hver gang?
+Metrics:
+{'bleu': 32.67, 'r1': 0.56, 'r2': 0.5, 'rl': 0.56, 'chrF': 47.28, 'chrf++': 47.66, 'bert_f1': 0.87, 'length': 27.0, 'len_ratio': 0.77}
+- 0.8: Har du vært full hver gang vi ses?
+Metrics:
+{'bleu': 33.03, 'r1': 0.6, 'r2': 0.44, 'rl': 0.6, 'chrF': 49.14, 'chrf++': 49.88, 'bert_f1': 0.9, 'length': 34.0, 'len_ratio': 0.97}
+- 0.9: Har du vært full hver gang vi har sett hverandre?
+Metrics:
+{'bleu': 29.0, 'r1': 0.64, 'r2': 0.5, 'rl': 0.64, 'chrF': 50.43, 'chrf++': 53.14, 'bert_f1': 0.92, 'length': 49.0, 'len_ratio': 1.4}
+- 1.0: Har du vært full hver gang vi har sett hverandre?
+Metrics:
+{'bleu': 29.0, 'r1': 0.64, 'r2': 0.5, 'rl': 0.64, 'chrF': 50.43, 'chrf++': 53.14, 'bert_f1': 0.92, 'length': 49.0, 'len_ratio': 1.4}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Har du vært full hver gang vi har sett hverandre?
+Baseline metrics:
+{'bleu': 29.0, 'r1': 0.64, 'r2': 0.5, 'rl': 0.64, 'chrF': 50.43, 'chrf++': 53.14, 'bert_f1': 0.92, 'length': 49.0, 'len_ratio': 1.4}
+====================================================================================================
+
+Source: no no it hasn't happened in a long time and I really thought I was over it but I guess I don't know I guess I wanted so much for tonight to go well that I stressed myself out it came back
+Target: Nei, det har ikke skjedd på lenge. Jeg trodde jeg hadde kommet over det. Jeg ville at dette skulle gå bra, så jeg gjorde meg selv stresset. Det kom tilbake.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei, det har ikke hendt lenge. Jeg trodde jeg var ferdig med det.
+Metrics:
+{'bleu': 14.14, 'r1': 0.42, 'r2': 0.29, 'rl': 0.42, 'chrF': 29.8, 'chrf++': 30.67, 'bert_f1': 0.85, 'length': 65.0, 'len_ratio': 0.42}
+- 0.6: Nei, det har ikke skjedd på lenge. Jeg trodde jeg var over det.
+Metrics:
+{'bleu': 23.36, 'r1': 0.56, 'r2': 0.49, 'rl': 0.56, 'chrF': 40.05, 'chrf++': 41.15, 'bert_f1': 0.89, 'length': 63.0, 'len_ratio': 0.4}
+- 0.7: Nei, det har ikke skjedd i lang tid. Jeg trodde jeg var ferdig med det, men jeg ville vel ikke ha det i kveld.
+Metrics:
+{'bleu': 20.79, 'r1': 0.44, 'r2': 0.27, 'rl': 0.44, 'chrF': 36.84, 'chrf++': 36.09, 'bert_f1': 0.85, 'length': 110.0, 'len_ratio': 0.71}
+- 0.8: Nei, det har ikke skjedd på lenge, og jeg trodde jeg var ute etter det, men jeg vet ikke om jeg ville det i kveld.
+Metrics:
+{'bleu': 22.14, 'r1': 0.55, 'r2': 0.34, 'rl': 0.51, 'chrF': 41.78, 'chrf++': 39.74, 'bert_f1': 0.85, 'length': 114.0, 'len_ratio': 0.73}
+- 0.9: Nei, det har ikke skjedd på lenge, og jeg trodde jeg var ferdig med det, men jeg vet vel ikke at jeg ville ha det bra i kveld.
+Metrics:
+{'bleu': 23.14, 'r1': 0.59, 'r2': 0.32, 'rl': 0.52, 'chrF': 41.96, 'chrf++': 40.45, 'bert_f1': 0.85, 'length': 126.0, 'len_ratio': 0.81}
+- 1.0: Nei, det har ikke skjedd på lenge, og jeg trodde jeg var ferdig med det, men jeg vet vel ikke at jeg ønsket så mye for i kveld at jeg stresset meg selv ut det kom tilbake
+Metrics:
+{'bleu': 22.87, 'r1': 0.63, 'r2': 0.34, 'rl': 0.6, 'chrF': 52.04, 'chrf++': 49.32, 'bert_f1': 0.83, 'length': 170.0, 'len_ratio': 1.09}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Nei nei det har ikke skjedd i lang tid og jeg virkelig trodde jeg var over det men jeg antar jeg ikke vet jeg antar jeg ønsket så mye for i kveld for å gå bra at jeg stresset meg ut det kom tilbake
+Baseline metrics:
+{'bleu': 9.38, 'r1': 0.58, 'r2': 0.25, 'rl': 0.49, 'chrF': 44.25, 'chrf++': 41.57, 'bert_f1': 0.77, 'length': 197.0, 'len_ratio': 1.26}
+====================================================================================================
+
+Source: so the doctor prescribed Nizoral and it blocked enzyme action and the fungus cleared right up
+Target: Legemiddelet blokkerte enzymene, og da forsvant soppen.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Og soppen ble renset.
+Metrics:
+{'bleu': 5.71, 'r1': 0.36, 'r2': 0.0, 'rl': 0.36, 'chrF': 14.8, 'chrf++': 14.19, 'bert_f1': 0.76, 'length': 21.0, 'len_ratio': 0.38}
+- 0.6: Legen forskrevet Nizoral.
+Metrics:
+{'bleu': 4.58, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.52, 'chrf++': 11.7, 'bert_f1': 0.69, 'length': 25.0, 'len_ratio': 0.45}
+- 0.7: Legen forskrevet Nizoral.
+Metrics:
+{'bleu': 4.58, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.52, 'chrf++': 11.7, 'bert_f1': 0.69, 'length': 25.0, 'len_ratio': 0.45}
+- 0.8: Legen har ordinert Nizoral.
+Metrics:
+{'bleu': 4.8, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 11.9, 'chrf++': 10.45, 'bert_f1': 0.65, 'length': 27.0, 'len_ratio': 0.49}
+- 0.9: Legen forskrevet Nizoral og blokkerte enzymet og soppen renset.
+Metrics:
+{'bleu': 5.93, 'r1': 0.38, 'r2': 0.0, 'rl': 0.38, 'chrF': 45.77, 'chrf++': 39.76, 'bert_f1': 0.81, 'length': 63.0, 'len_ratio': 1.15}
+- 1.0: Så legen forskrevet Nizoral og det blokkerte enzymet og soppen renset opp
+Metrics:
+{'bleu': 4.46, 'r1': 0.32, 'r2': 0.0, 'rl': 0.32, 'chrF': 47.58, 'chrf++': 39.59, 'bert_f1': 0.75, 'length': 73.0, 'len_ratio': 1.33}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: så forskrevet legen Nizoral og det blokkerte enzymvirkningen og soppen renset opp
+Baseline metrics:
+{'bleu': 4.46, 'r1': 0.32, 'r2': 0.0, 'rl': 0.32, 'chrF': 44.43, 'chrf++': 37.24, 'bert_f1': 0.72, 'length': 81.0, 'len_ratio': 1.47}
+====================================================================================================
+
+Source: guys focus my mom thinks that Sheldon is the reason I don't spend a lot of time with her
+Target: Moren min tror at Sheldon er grunnen til at vi ikke sees så ofte.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg har ikke mye tid med henne.
+Metrics:
+{'bleu': 2.74, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 11.95, 'chrf++': 10.8, 'bert_f1': 0.73, 'length': 31.0, 'len_ratio': 0.48}
+- 0.6: Mor tror Sheldon er grunnen til at jeg ikke er sammen med henne.
+Metrics:
+{'bleu': 27.84, 'r1': 0.52, 'r2': 0.32, 'rl': 0.52, 'chrF': 50.63, 'chrf++': 48.36, 'bert_f1': 0.86, 'length': 64.0, 'len_ratio': 0.98}
+- 0.7: Mor tror Sheldon er grunnen til at jeg ikke er sammen med henne.
+Metrics:
+{'bleu': 27.84, 'r1': 0.52, 'r2': 0.32, 'rl': 0.52, 'chrF': 50.63, 'chrf++': 48.36, 'bert_f1': 0.86, 'length': 64.0, 'len_ratio': 0.98}
+- 0.8: Gutter fokuserer på moren min.
+Metrics:
+{'bleu': 2.15, 'r1': 0.21, 'r2': 0.12, 'rl': 0.21, 'chrF': 16.46, 'chrf++': 14.24, 'bert_f1': 0.72, 'length': 30.0, 'len_ratio': 0.46}
+- 0.9: Gutter fokuserer på mamma.
+Metrics:
+{'bleu': 1.45, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 7.97, 'chrf++': 6.94, 'bert_f1': 0.69, 'length': 26.0, 'len_ratio': 0.4}
+- 1.0: Gutter fokuserer på moren min.
+Metrics:
+{'bleu': 2.15, 'r1': 0.21, 'r2': 0.12, 'rl': 0.21, 'chrF': 16.46, 'chrf++': 14.24, 'bert_f1': 0.72, 'length': 30.0, 'len_ratio': 0.46}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: gutter fokusere min mor tror at Sheldon er grunnen til at jeg ikke bruker mye tid med henne
+Baseline metrics:
+{'bleu': 34.82, 'r1': 0.56, 'r2': 0.4, 'rl': 0.56, 'chrF': 55.56, 'chrf++': 54.07, 'bert_f1': 0.81, 'length': 91.0, 'len_ratio': 1.4}
+====================================================================================================
+
+Source: and it's easier to say I can't spend time with her because of Sheldon then to admit that I just I don't want to
+Target: Det er lettere enn å erkjenne at jeg ikke vil omgås henne.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg kan ikke være sammen med Sheldon.
+Metrics:
+{'bleu': 3.52, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 14.3, 'chrf++': 12.81, 'bert_f1': 0.77, 'length': 37.0, 'len_ratio': 0.64}
+- 0.6: Jeg kan ikke være sammen med henne på grunn av Sheldon.
+Metrics:
+{'bleu': 4.1, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 20.03, 'chrf++': 17.95, 'bert_f1': 0.77, 'length': 55.0, 'len_ratio': 0.95}
+- 0.7: Det er lettere å si at jeg ikke kan være sammen med henne.
+Metrics:
+{'bleu': 20.8, 'r1': 0.56, 'r2': 0.35, 'rl': 0.56, 'chrF': 48.64, 'chrf++': 50.14, 'bert_f1': 0.89, 'length': 58.0, 'len_ratio': 1.0}
+- 0.8: Jeg kan ikke være sammen med henne på grunn av Sheldon.
+Metrics:
+{'bleu': 4.1, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 20.03, 'chrf++': 17.95, 'bert_f1': 0.77, 'length': 55.0, 'len_ratio': 0.95}
+- 0.9: Det er lettere å si at jeg ikke kan være sammen med Sheldon.
+Metrics:
+{'bleu': 19.1, 'r1': 0.48, 'r2': 0.35, 'rl': 0.48, 'chrF': 42.99, 'chrf++': 43.92, 'bert_f1': 0.85, 'length': 60.0, 'len_ratio': 1.03}
+- 1.0: Det er lettere å si at jeg ikke kan være sammen med Sheldon.
+Metrics:
+{'bleu': 19.1, 'r1': 0.48, 'r2': 0.35, 'rl': 0.48, 'chrF': 42.99, 'chrf++': 43.92, 'bert_f1': 0.85, 'length': 60.0, 'len_ratio': 1.03}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Og det er lettere å si at jeg ikke kan bruke tid med henne på grunn av Sheldon da å innrømme at jeg bare ikke vil
+Baseline metrics:
+{'bleu': 8.17, 'r1': 0.43, 'r2': 0.29, 'rl': 0.38, 'chrF': 46.26, 'chrf++': 44.53, 'bert_f1': 0.81, 'length': 113.0, 'len_ratio': 1.95}
+====================================================================================================
+
+Source: Amy said she couldn't come to Thanksgiving dinner because you always have to spend it with your mother
+Target: Dere kom ikke på thanksgiving fordi du alltid må være med moren din.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Amy sa hun ikke kunne komme.
+Metrics:
+{'bleu': 2.87, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 11.28, 'chrf++': 10.45, 'bert_f1': 0.72, 'length': 28.0, 'len_ratio': 0.41}
+- 0.6: Amy sa hun ikke kunne komme.
+Metrics:
+{'bleu': 2.87, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 11.28, 'chrf++': 10.45, 'bert_f1': 0.72, 'length': 28.0, 'len_ratio': 0.41}
+- 0.7: Amy sa at hun ikke kunne komme.
+Metrics:
+{'bleu': 3.1, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 12.2, 'chrf++': 11.12, 'bert_f1': 0.72, 'length': 31.0, 'len_ratio': 0.46}
+- 0.8: Amy sa hun ikke kunne komme på Thanksgiving middag.
+Metrics:
+{'bleu': 3.7, 'r1': 0.26, 'r2': 0.1, 'rl': 0.26, 'chrF': 29.25, 'chrf++': 24.78, 'bert_f1': 0.73, 'length': 51.0, 'len_ratio': 0.75}
+- 0.9: Amy sa hun ikke kunne komme på Thanksgiving middag fordi du alltid må tilbringe den med moren din.
+Metrics:
+{'bleu': 26.8, 'r1': 0.63, 'r2': 0.4, 'rl': 0.63, 'chrF': 61.95, 'chrf++': 60.17, 'bert_f1': 0.82, 'length': 98.0, 'len_ratio': 1.44}
+- 1.0: Amy sa hun ikke kunne komme på thanksgiving middag fordi du alltid må tilbringe den med moren din
+Metrics:
+{'bleu': 22.25, 'r1': 0.63, 'r2': 0.4, 'rl': 0.63, 'chrF': 65.1, 'chrf++': 62.73, 'bert_f1': 0.85, 'length': 97.0, 'len_ratio': 1.43}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Amy sa hun ikke kunne komme på Thanksgiving middag fordi du alltid må bruke den sammen med moren din
+Baseline metrics:
+{'bleu': 19.52, 'r1': 0.61, 'r2': 0.39, 'rl': 0.61, 'chrF': 59.49, 'chrf++': 56.59, 'bert_f1': 0.79, 'length': 100.0, 'len_ratio': 1.47}
+====================================================================================================
+
+Source: look at that we're both angry at Amy you know maybe that's something we can bond over. let me ask you this how do you feel about Howard?
+Target: Vi er sinte på Amy begge to. Kanskje det vil føre oss nærmere. Hva synes du om Howard?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi er begge sinte på Amy.
+Metrics:
+{'bleu': 4.53, 'r1': 0.46, 'r2': 0.25, 'rl': 0.38, 'chrF': 20.91, 'chrf++': 22.68, 'bert_f1': 0.79, 'length': 25.0, 'len_ratio': 0.29}
+- 0.6: Vi er begge sinte på Amy.
+Metrics:
+{'bleu': 4.53, 'r1': 0.46, 'r2': 0.25, 'rl': 0.38, 'chrF': 20.91, 'chrf++': 22.68, 'bert_f1': 0.79, 'length': 25.0, 'len_ratio': 0.29}
+- 0.7: Vi er begge sinte på Amy.
+Metrics:
+{'bleu': 4.53, 'r1': 0.46, 'r2': 0.25, 'rl': 0.38, 'chrF': 20.91, 'chrf++': 22.68, 'bert_f1': 0.79, 'length': 25.0, 'len_ratio': 0.29}
+- 0.8: Vi er begge sinte på Amy.
+Metrics:
+{'bleu': 4.53, 'r1': 0.46, 'r2': 0.25, 'rl': 0.38, 'chrF': 20.91, 'chrf++': 22.68, 'bert_f1': 0.79, 'length': 25.0, 'len_ratio': 0.29}
+- 0.9: Se at vi begge er sinte på Amy.
+Metrics:
+{'bleu': 8.71, 'r1': 0.43, 'r2': 0.23, 'rl': 0.36, 'chrF': 23.23, 'chrf++': 23.61, 'bert_f1': 0.78, 'length': 31.0, 'len_ratio': 0.36}
+- 1.0: Se at vi begge er sinte på Amy.
+Metrics:
+{'bleu': 8.71, 'r1': 0.43, 'r2': 0.23, 'rl': 0.36, 'chrF': 23.23, 'chrf++': 23.61, 'bert_f1': 0.78, 'length': 31.0, 'len_ratio': 0.36}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Se på at vi begge er sinte på Amy du vet kanskje det er noe vi kan binde over. la meg spørre deg hvordan føler du for Howard?
+Baseline metrics:
+{'bleu': 10.5, 'r1': 0.44, 'r2': 0.17, 'rl': 0.4, 'chrF': 39.89, 'chrf++': 37.69, 'bert_f1': 0.78, 'length': 125.0, 'len_ratio': 1.45}
+====================================================================================================
+
+Source: why would Amy feel the need to lie to me?
+Target: Hvorfor løy Amy til meg?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hvorfor lyve?
+Metrics:
+{'bleu': 0.0, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 36.56, 'chrf++': 32.06, 'bert_f1': 0.81, 'length': 13.0, 'len_ratio': 0.54}
+- 0.6: Hvorfor skulle Amy lyve?
+Metrics:
+{'bleu': 11.51, 'r1': 0.4, 'r2': 0.0, 'rl': 0.4, 'chrF': 33.97, 'chrf++': 31.99, 'bert_f1': 0.86, 'length': 24.0, 'len_ratio': 1.0}
+- 0.7: Hvorfor skulle Amy lyve?
+Metrics:
+{'bleu': 11.51, 'r1': 0.4, 'r2': 0.0, 'rl': 0.4, 'chrF': 33.97, 'chrf++': 31.99, 'bert_f1': 0.86, 'length': 24.0, 'len_ratio': 1.0}
+- 0.8: Hvorfor skulle Amy lyve?
+Metrics:
+{'bleu': 11.51, 'r1': 0.4, 'r2': 0.0, 'rl': 0.4, 'chrF': 33.97, 'chrf++': 31.99, 'bert_f1': 0.86, 'length': 24.0, 'len_ratio': 1.0}
+- 0.9: Hvorfor måtte Amy lyve?
+Metrics:
+{'bleu': 11.51, 'r1': 0.36, 'r2': 0.0, 'rl': 0.36, 'chrF': 35.18, 'chrf++': 32.87, 'bert_f1': 0.85, 'length': 23.0, 'len_ratio': 0.96}
+- 1.0: Hvorfor måtte Amy lyve?
+Metrics:
+{'bleu': 11.51, 'r1': 0.36, 'r2': 0.0, 'rl': 0.36, 'chrF': 35.18, 'chrf++': 32.87, 'bert_f1': 0.85, 'length': 23.0, 'len_ratio': 0.96}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Hvorfor skulle Amy føle behovet for å lyve for meg?
+Baseline metrics:
+{'bleu': 8.91, 'r1': 0.37, 'r2': 0.0, 'rl': 0.37, 'chrF': 34.85, 'chrf++': 35.4, 'bert_f1': 0.8, 'length': 51.0, 'len_ratio': 2.12}
+====================================================================================================
+
+Source: really? Even after she threw you under the bus you're still gonna defend her
+Target: Forsvarer du henne selv om hun skyldte på deg?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Du skal forsvare henne.
+Metrics:
+{'bleu': 3.93, 'r1': 0.31, 'r2': 0.0, 'rl': 0.31, 'chrF': 23.87, 'chrf++': 19.29, 'bert_f1': 0.77, 'length': 23.0, 'len_ratio': 0.5}
+- 0.6: Selv etter at hun kastet deg under bussen.
+Metrics:
+{'bleu': 5.07, 'r1': 0.35, 'r2': 0.0, 'rl': 0.35, 'chrF': 17.13, 'chrf++': 15.4, 'bert_f1': 0.73, 'length': 42.0, 'len_ratio': 0.91}
+- 0.7: Selv etter at hun kastet deg under bussen...
+Metrics:
+{'bleu': 4.46, 'r1': 0.35, 'r2': 0.0, 'rl': 0.35, 'chrF': 16.95, 'chrf++': 15.26, 'bert_f1': 0.74, 'length': 44.0, 'len_ratio': 0.96}
+- 0.8: Selv etter at hun kastet deg under bussen, vil du forsvare henne.
+Metrics:
+{'bleu': 4.02, 'r1': 0.48, 'r2': 0.0, 'rl': 0.29, 'chrF': 31.26, 'chrf++': 28.07, 'bert_f1': 0.79, 'length': 65.0, 'len_ratio': 1.41}
+- 0.9: Selv etter at hun kastet deg under bussen, vil du forsvare henne.
+Metrics:
+{'bleu': 4.02, 'r1': 0.48, 'r2': 0.0, 'rl': 0.29, 'chrF': 31.26, 'chrf++': 28.07, 'bert_f1': 0.79, 'length': 65.0, 'len_ratio': 1.41}
+- 1.0: Selv etter at hun kastet deg under bussen, vil du forsvare henne.
+Metrics:
+{'bleu': 4.02, 'r1': 0.48, 'r2': 0.0, 'rl': 0.29, 'chrF': 31.26, 'chrf++': 28.07, 'bert_f1': 0.79, 'length': 65.0, 'len_ratio': 1.41}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Selv etter hun kastet deg under bussen du fortsatt skal forsvare henne
+Baseline metrics:
+{'bleu': 4.79, 'r1': 0.48, 'r2': 0.0, 'rl': 0.29, 'chrF': 30.89, 'chrf++': 28.03, 'bert_f1': 0.77, 'length': 70.0, 'len_ratio': 1.52}
+====================================================================================================
+
+Source: am I safe to assume you talking to me now is a good sign for our marriage?
+Target: Er det et godt tegn for ekteskapet vårt at du prater med meg nå?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Er det et godt tegn?
+Metrics:
+{'bleu': 17.74, 'r1': 0.5, 'r2': 0.44, 'rl': 0.5, 'chrF': 30.4, 'chrf++': 32.62, 'bert_f1': 0.79, 'length': 20.0, 'len_ratio': 0.31}
+- 0.6: Er det et godt tegn for ekteskapet?
+Metrics:
+{'bleu': 36.24, 'r1': 0.64, 'r2': 0.6, 'rl': 0.64, 'chrF': 58.12, 'chrf++': 56.9, 'bert_f1': 0.87, 'length': 35.0, 'len_ratio': 0.55}
+- 0.7: Er det sikkert at du snakker til meg?
+Metrics:
+{'bleu': 7.66, 'r1': 0.43, 'r2': 0.19, 'rl': 0.43, 'chrF': 19.36, 'chrf++': 21.91, 'bert_f1': 0.79, 'length': 37.0, 'len_ratio': 0.58}
+- 0.8: Er det trygt å anta at du snakker til meg?
+Metrics:
+{'bleu': 8.15, 'r1': 0.42, 'r2': 0.18, 'rl': 0.42, 'chrF': 18.58, 'chrf++': 21.12, 'bert_f1': 0.78, 'length': 42.0, 'len_ratio': 0.66}
+- 0.9: Er det sikkert at du snakker til meg nå, er et godt tegn for vårt ekteskap?
+Metrics:
+{'bleu': 21.04, 'r1': 0.75, 'r2': 0.47, 'rl': 0.5, 'chrF': 54.26, 'chrf++': 55.45, 'bert_f1': 0.87, 'length': 75.0, 'len_ratio': 1.17}
+- 1.0: Er det trygt å anta at du snakker til meg nå er et godt tegn for vårt ekteskap?
+Metrics:
+{'bleu': 19.84, 'r1': 0.73, 'r2': 0.45, 'rl': 0.48, 'chrF': 51.18, 'chrf++': 52.95, 'bert_f1': 0.85, 'length': 79.0, 'len_ratio': 1.23}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Er jeg sikker på at du snakker med meg nå er et godt tegn for vårt ekteskap?
+Baseline metrics:
+{'bleu': 23.29, 'r1': 0.73, 'r2': 0.45, 'rl': 0.42, 'chrF': 56.36, 'chrf++': 57.02, 'bert_f1': 0.86, 'length': 76.0, 'len_ratio': 1.19}
+====================================================================================================
+
+Source: thank you Amy it's so nice of you to have us over for dinner
+Target: Så hyggelig å få komme på middag.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Takk, Amy.
+Metrics:
+{'bleu': 5.88, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.56, 'chrf++': 4.42, 'bert_f1': 0.59, 'length': 10.0, 'len_ratio': 0.3}
+- 0.6: Takk, Amy.
+Metrics:
+{'bleu': 5.88, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.56, 'chrf++': 4.42, 'bert_f1': 0.59, 'length': 10.0, 'len_ratio': 0.3}
+- 0.7: Takk, Amy.
+Metrics:
+{'bleu': 5.88, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.56, 'chrf++': 4.42, 'bert_f1': 0.59, 'length': 10.0, 'len_ratio': 0.3}
+- 0.8: Takk, Amy.
+Metrics:
+{'bleu': 5.88, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.56, 'chrf++': 4.42, 'bert_f1': 0.59, 'length': 10.0, 'len_ratio': 0.3}
+- 0.9: Tusen takk, Amy.
+Metrics:
+{'bleu': 5.86, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.1, 'chrf++': 4.77, 'bert_f1': 0.65, 'length': 16.0, 'len_ratio': 0.48}
+- 1.0: Takk Amy, det er hyggelig av deg å ha oss over til middag.
+Metrics:
+{'bleu': 6.25, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 38.56, 'chrf++': 35.74, 'bert_f1': 0.8, 'length': 58.0, 'len_ratio': 1.76}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Tusen takk Amy det er så fint av deg å ha oss over til middag
+Baseline metrics:
+{'bleu': 3.13, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 20.62, 'chrf++': 18.13, 'bert_f1': 0.71, 'length': 61.0, 'len_ratio': 1.85}
+====================================================================================================
+
+Source: you realise we still have a lot of work to do before we can publish
+Target: Det er fremdeles mye som gjenstår.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi har mye å gjøre.
+Metrics:
+{'bleu': 8.17, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 9.7, 'chrf++': 11.02, 'bert_f1': 0.75, 'length': 19.0, 'len_ratio': 0.56}
+- 0.6: Vi har mye å gjøre før vi kan utgi
+Metrics:
+{'bleu': 4.77, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 10.69, 'chrf++': 9.74, 'bert_f1': 0.69, 'length': 34.0, 'len_ratio': 1.0}
+- 0.7: Vi har mye å gjøre før vi kan publisere.
+Metrics:
+{'bleu': 4.99, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 13.09, 'chrf++': 13.14, 'bert_f1': 0.73, 'length': 40.0, 'len_ratio': 1.18}
+- 0.8: Vi har mye å gjøre før vi kan publisere.
+Metrics:
+{'bleu': 4.99, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 13.09, 'chrf++': 13.14, 'bert_f1': 0.73, 'length': 40.0, 'len_ratio': 1.18}
+- 0.9: Vi har mye å gjøre før vi kan publisere.
+Metrics:
+{'bleu': 4.99, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 13.09, 'chrf++': 13.14, 'bert_f1': 0.73, 'length': 40.0, 'len_ratio': 1.18}
+- 1.0: Vi har mye å gjøre før vi kan publisere.
+Metrics:
+{'bleu': 4.99, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 13.09, 'chrf++': 13.14, 'bert_f1': 0.73, 'length': 40.0, 'len_ratio': 1.18}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: innser du at vi fremdeles har mye arbeid å gjøre før vi kan publisere
+Baseline metrics:
+{'bleu': 3.38, 'r1': 0.27, 'r2': 0.0, 'rl': 0.27, 'chrF': 30.43, 'chrf++': 25.8, 'bert_f1': 0.7, 'length': 69.0, 'len_ratio': 2.03}
+====================================================================================================
+
+Source: absolutely not if the king of Sweden hands me a medal I intend to smear it with Purell and kiss it
+Target: Nei, får jeg en medalje, kliner jeg på antibac og kysser den.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.14, 'r2': 0.0, 'rl': 0.14, 'chrF': 4.36, 'chrf++': 5.61, 'bert_f1': 0.6, 'length': 4.0, 'len_ratio': 0.07}
+- 0.6: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.14, 'r2': 0.0, 'rl': 0.14, 'chrF': 4.36, 'chrf++': 5.61, 'bert_f1': 0.6, 'length': 4.0, 'len_ratio': 0.07}
+- 0.7: Ikke om kongen gir meg en medalje.
+Metrics:
+{'bleu': 5.1, 'r1': 0.2, 'r2': 0.11, 'rl': 0.2, 'chrF': 24.36, 'chrf++': 22.02, 'bert_f1': 0.74, 'length': 34.0, 'len_ratio': 0.56}
+- 0.8: Absolutt ikke hvis kongen gir meg en medalje.
+Metrics:
+{'bleu': 5.42, 'r1': 0.19, 'r2': 0.11, 'rl': 0.19, 'chrF': 26.1, 'chrf++': 23.29, 'bert_f1': 0.74, 'length': 45.0, 'len_ratio': 0.74}
+- 0.9: Absolutt ikke hvis den svenske kongen gir meg en medalje jeg har tenkt å smøre den med Purell og kysse den
+Metrics:
+{'bleu': 4.57, 'r1': 0.29, 'r2': 0.06, 'rl': 0.29, 'chrF': 32.09, 'chrf++': 28.79, 'bert_f1': 0.73, 'length': 106.0, 'len_ratio': 1.74}
+- 1.0: Absolutt ikke hvis Sveriges konge gir meg en medalje jeg akter å smure den med Purell og kysse den
+Metrics:
+{'bleu': 5.09, 'r1': 0.32, 'r2': 0.07, 'rl': 0.32, 'chrF': 33.41, 'chrf++': 29.9, 'bert_f1': 0.72, 'length': 98.0, 'len_ratio': 1.61}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: absolutt ikke hvis Sveriges konge gir meg en medalje jeg har til hensikt å smøre den med Purell og kysse den
+Baseline metrics:
+{'bleu': 4.57, 'r1': 0.29, 'r2': 0.06, 'rl': 0.29, 'chrF': 32.45, 'chrf++': 29.06, 'bert_f1': 0.73, 'length': 108.0, 'len_ratio': 1.77}
+====================================================================================================
+
+Source: yes but he's always struck me as the guy in the plane crash who doesn't wait until you're all the way dead to eat you
+Target: Men han er typen til å spise en opp før man er død etter en flyulykke.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ja, men han har alltid slått meg.
+Metrics:
+{'bleu': 2.33, 'r1': 0.16, 'r2': 0.09, 'rl': 0.16, 'chrF': 11.3, 'chrf++': 10.1, 'bert_f1': 0.73, 'length': 33.0, 'len_ratio': 0.47}
+- 0.6: Han har alltid slått meg som fyren i flykrasjen.
+Metrics:
+{'bleu': 2.08, 'r1': 0.07, 'r2': 0.0, 'rl': 0.07, 'chrF': 15.51, 'chrf++': 12.44, 'bert_f1': 0.73, 'length': 48.0, 'len_ratio': 0.69}
+- 0.7: Han har alltid slått meg som en som ikke venter til du er død.
+Metrics:
+{'bleu': 5.78, 'r1': 0.36, 'r2': 0.13, 'rl': 0.3, 'chrF': 21.04, 'chrf++': 20.34, 'bert_f1': 0.74, 'length': 62.0, 'len_ratio': 0.89}
+- 0.8: Ja, men han har alltid slått meg som fyren som ikke venter til du er død.
+Metrics:
+{'bleu': 5.4, 'r1': 0.34, 'r2': 0.18, 'rl': 0.34, 'chrF': 24.35, 'chrf++': 22.66, 'bert_f1': 0.73, 'length': 73.0, 'len_ratio': 1.04}
+- 0.9: Ja, men han har alltid slått meg som fyren i flyet som ikke venter til du er død for å spise deg
+Metrics:
+{'bleu': 5.15, 'r1': 0.35, 'r2': 0.16, 'rl': 0.3, 'chrF': 30.19, 'chrf++': 28.22, 'bert_f1': 0.7, 'length': 96.0, 'len_ratio': 1.37}
+- 1.0: Ja, men han har alltid slått meg som fyren i flyet som ikke venter til du er helt død for å spise deg
+Metrics:
+{'bleu': 4.14, 'r1': 0.34, 'r2': 0.1, 'rl': 0.29, 'chrF': 28.03, 'chrf++': 25.82, 'bert_f1': 0.7, 'length': 101.0, 'len_ratio': 1.44}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Ja, men han har alltid slått meg som fyren i flyet krasj som ikke venter til du er helt død for å spise deg
+Baseline metrics:
+{'bleu': 3.96, 'r1': 0.33, 'r2': 0.1, 'rl': 0.29, 'chrF': 27.56, 'chrf++': 25.42, 'bert_f1': 0.68, 'length': 107.0, 'len_ratio': 1.53}
+====================================================================================================
+
+Source: you know we're almost finished with our paper we just need help tracking down the citations
+Target: Vi er neste ferdig med artikkelen, men noen må sjekke sitatene.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi er nesten ferdige med avisen.
+Metrics:
+{'bleu': 6.63, 'r1': 0.35, 'r2': 0.13, 'rl': 0.35, 'chrF': 28.9, 'chrf++': 27.08, 'bert_f1': 0.79, 'length': 32.0, 'len_ratio': 0.51}
+- 0.6: Vi er nesten ferdige med avisen vår.
+Metrics:
+{'bleu': 7.03, 'r1': 0.32, 'r2': 0.12, 'rl': 0.32, 'chrF': 29.22, 'chrf++': 27.22, 'bert_f1': 0.76, 'length': 36.0, 'len_ratio': 0.57}
+- 0.7: Vi er nesten ferdige med avisen.
+Metrics:
+{'bleu': 6.63, 'r1': 0.35, 'r2': 0.13, 'rl': 0.35, 'chrF': 28.9, 'chrf++': 27.08, 'bert_f1': 0.79, 'length': 32.0, 'len_ratio': 0.51}
+- 0.8: Vi er nesten ferdige med avisen.
+Metrics:
+{'bleu': 6.63, 'r1': 0.35, 'r2': 0.13, 'rl': 0.35, 'chrF': 28.9, 'chrf++': 27.08, 'bert_f1': 0.79, 'length': 32.0, 'len_ratio': 0.51}
+- 0.9: Vi er nesten ferdige med avisen vår.
+Metrics:
+{'bleu': 7.03, 'r1': 0.32, 'r2': 0.12, 'rl': 0.32, 'chrF': 29.22, 'chrf++': 27.22, 'bert_f1': 0.76, 'length': 36.0, 'len_ratio': 0.57}
+- 1.0: Vi er nesten ferdige med avisen vår. Vi trenger hjelp med å finne referansene.
+Metrics:
+{'bleu': 5.82, 'r1': 0.24, 'r2': 0.09, 'rl': 0.24, 'chrF': 34.86, 'chrf++': 30.81, 'bert_f1': 0.78, 'length': 78.0, 'len_ratio': 1.24}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Du vet vi er nesten ferdig med vårt papir vi trenger bare hjelp med å spore opp referanser
+Baseline metrics:
+{'bleu': 4.75, 'r1': 0.28, 'r2': 0.15, 'rl': 0.28, 'chrF': 33.34, 'chrf++': 28.64, 'bert_f1': 0.72, 'length': 90.0, 'len_ratio': 1.43}
+====================================================================================================
+
+Source: I am not gonna spend weeks in a library looking up old papers can't we hire a grad-student to do it?
+Target: Kan vi ikke betale en doktorand for å sjekke sitatene?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Kan vi ikke ansette en student?
+Metrics:
+{'bleu': 15.69, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 26.02, 'chrf++': 28.37, 'bert_f1': 0.83, 'length': 31.0, 'len_ratio': 0.57}
+- 0.6: Kan vi ikke ansette en student?
+Metrics:
+{'bleu': 15.69, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 26.02, 'chrf++': 28.37, 'bert_f1': 0.83, 'length': 31.0, 'len_ratio': 0.57}
+- 0.7: Kan vi ikke ansette en student?
+Metrics:
+{'bleu': 15.69, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 26.02, 'chrf++': 28.37, 'bert_f1': 0.83, 'length': 31.0, 'len_ratio': 0.57}
+- 0.8: Kan vi ikke ansette en student?
+Metrics:
+{'bleu': 15.69, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 26.02, 'chrf++': 28.37, 'bert_f1': 0.83, 'length': 31.0, 'len_ratio': 0.57}
+- 0.9: Kan vi ikke ansette en student?
+Metrics:
+{'bleu': 15.69, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 26.02, 'chrf++': 28.37, 'bert_f1': 0.83, 'length': 31.0, 'len_ratio': 0.57}
+- 1.0: Kan vi ikke ansette en student til å gjøre det?
+Metrics:
+{'bleu': 16.59, 'r1': 0.42, 'r2': 0.24, 'rl': 0.42, 'chrF': 27.59, 'chrf++': 30.04, 'bert_f1': 0.84, 'length': 47.0, 'len_ratio': 0.87}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg skal ikke tilbringe uker i et bibliotek som leter opp gamle papirer kan vi ikke ansette en student for å gjøre det?
+Baseline metrics:
+{'bleu': 4.92, 'r1': 0.31, 'r2': 0.13, 'rl': 0.31, 'chrF': 26.99, 'chrf++': 27.74, 'bert_f1': 0.77, 'length': 119.0, 'len_ratio': 2.2}
+====================================================================================================
+
+Source: well what if we ask one of our friends to help us out how about Leonard?
+Target: Vi kan be Leonard om hjelp.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hva med Leonard?
+Metrics:
+{'bleu': 7.55, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 26.91, 'chrf++': 22.13, 'bert_f1': 0.71, 'length': 16.0, 'len_ratio': 0.59}
+- 0.6: Hva med Leonard?
+Metrics:
+{'bleu': 7.55, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 26.91, 'chrf++': 22.13, 'bert_f1': 0.71, 'length': 16.0, 'len_ratio': 0.59}
+- 0.7: Hva med Leonard?
+Metrics:
+{'bleu': 7.55, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 26.91, 'chrf++': 22.13, 'bert_f1': 0.71, 'length': 16.0, 'len_ratio': 0.59}
+- 0.8: Hva med Leonard?
+Metrics:
+{'bleu': 7.55, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 26.91, 'chrf++': 22.13, 'bert_f1': 0.71, 'length': 16.0, 'len_ratio': 0.59}
+- 0.9: Hva om vi ber en av vennene våre hjelpe oss?
+Metrics:
+{'bleu': 3.75, 'r1': 0.24, 'r2': 0.0, 'rl': 0.12, 'chrF': 21.73, 'chrf++': 17.9, 'bert_f1': 0.68, 'length': 44.0, 'len_ratio': 1.63}
+- 1.0: Hva om vi ber en av vennene våre hjelpe oss?
+Metrics:
+{'bleu': 3.75, 'r1': 0.24, 'r2': 0.0, 'rl': 0.12, 'chrF': 21.73, 'chrf++': 17.9, 'bert_f1': 0.68, 'length': 44.0, 'len_ratio': 1.63}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Hva om vi spør en av vennene våre om å hjelpe oss, hva med Leonard?
+Baseline metrics:
+{'bleu': 2.72, 'r1': 0.27, 'r2': 0.0, 'rl': 0.18, 'chrF': 30.64, 'chrf++': 25.76, 'bert_f1': 0.69, 'length': 67.0, 'len_ratio': 2.48}
+====================================================================================================
+
+Source: Fortnite a bunch of people parachute onto an island and fight it out to be the last man standing
+Target: Fortnite. Masse folk kjemper til bare én er igjen på en øy.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Slåss mot en øy.
+Metrics:
+{'bleu': 6.57, 'r1': 0.24, 'r2': 0.13, 'rl': 0.24, 'chrF': 9.99, 'chrf++': 12.82, 'bert_f1': 0.77, 'length': 16.0, 'len_ratio': 0.27}
+- 0.6: Slåss mot en øy og bli siste mann.
+Metrics:
+{'bleu': 6.05, 'r1': 0.19, 'r2': 0.11, 'rl': 0.19, 'chrF': 12.29, 'chrf++': 13.15, 'bert_f1': 0.74, 'length': 34.0, 'len_ratio': 0.58}
+- 0.7: Slåss mot en øy for å bli siste mann.
+Metrics:
+{'bleu': 6.23, 'r1': 0.19, 'r2': 0.11, 'rl': 0.19, 'chrF': 13.33, 'chrf++': 13.87, 'bert_f1': 0.74, 'length': 37.0, 'len_ratio': 0.63}
+- 0.8: Fortnite en haug av folk fallskjerm på en øy.
+Metrics:
+{'bleu': 19.49, 'r1': 0.48, 'r2': 0.21, 'rl': 0.48, 'chrF': 33.15, 'chrf++': 33.62, 'bert_f1': 0.8, 'length': 45.0, 'len_ratio': 0.76}
+- 0.9: Fortnit en haug med folk fallskjerm på en øy og kjempet for å være den siste som står
+Metrics:
+{'bleu': 8.59, 'r1': 0.26, 'r2': 0.14, 'rl': 0.26, 'chrF': 35.27, 'chrf++': 31.65, 'bert_f1': 0.75, 'length': 85.0, 'len_ratio': 1.44}
+- 1.0: Fortnite en haug av folk fallskjerm på en øy og slåss til å være den siste mann stående
+Metrics:
+{'bleu': 9.51, 'r1': 0.37, 'r2': 0.13, 'rl': 0.31, 'chrF': 31.97, 'chrf++': 30.87, 'bert_f1': 0.75, 'length': 87.0, 'len_ratio': 1.47}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Fortnite en haug med mennesker fallskjerm på en øy og kjempe det ut til å være den siste mannen stående
+Baseline metrics:
+{'bleu': 8.1, 'r1': 0.3, 'r2': 0.13, 'rl': 0.24, 'chrF': 33.15, 'chrf++': 30.78, 'bert_f1': 0.74, 'length': 103.0, 'len_ratio': 1.75}
+====================================================================================================
+
+Source: more like Bachelor in Paradise but not as cut throat
+Target: Nei, som Ungkaren, bare snillere.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Men ikke som halskutt
+Metrics:
+{'bleu': 5.88, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 10.74, 'chrf++': 9.8, 'bert_f1': 0.67, 'length': 21.0, 'len_ratio': 0.64}
+- 0.6: Men ikke som kuttet
+Metrics:
+{'bleu': 5.88, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 9.65, 'chrf++': 8.97, 'bert_f1': 0.67, 'length': 19.0, 'len_ratio': 0.58}
+- 0.7: Mer som bachelor i Paradise.
+Metrics:
+{'bleu': 6.92, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 14.46, 'chrf++': 14.14, 'bert_f1': 0.72, 'length': 28.0, 'len_ratio': 0.85}
+- 0.8: Mer som akademiker i Paradise.
+Metrics:
+{'bleu': 6.92, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 14.26, 'chrf++': 13.99, 'bert_f1': 0.72, 'length': 30.0, 'len_ratio': 0.91}
+- 0.9: Mer som bachelor i Paradise.
+Metrics:
+{'bleu': 6.92, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 14.46, 'chrf++': 14.14, 'bert_f1': 0.72, 'length': 28.0, 'len_ratio': 0.85}
+- 1.0: Mer som bachelor i Paradise, men ikke like skutt
+Metrics:
+{'bleu': 4.99, 'r1': 0.14, 'r2': 0.0, 'rl': 0.14, 'chrF': 16.74, 'chrf++': 15.53, 'bert_f1': 0.67, 'length': 48.0, 'len_ratio': 1.45}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: mer som bachelor i Paradise, men ikke som kuttet hals
+Baseline metrics:
+{'bleu': 4.46, 'r1': 0.13, 'r2': 0.0, 'rl': 0.13, 'chrF': 16.32, 'chrf++': 15.15, 'bert_f1': 0.66, 'length': 53.0, 'len_ratio': 1.61}
+====================================================================================================
+
+Source: and depending on what you wanna build you can use LB RB LT or RT
+Target: Og avhengig av hva man vil bygge, kan man bruke ulike taster.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Du kan bruke LB RB LT.
+Metrics:
+{'bleu': 3.18, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 12.8, 'chrf++': 12.61, 'bert_f1': 0.69, 'length': 22.0, 'len_ratio': 0.36}
+- 0.6: Du kan bruke LB RB LT.
+Metrics:
+{'bleu': 3.18, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 12.8, 'chrf++': 12.61, 'bert_f1': 0.69, 'length': 22.0, 'len_ratio': 0.36}
+- 0.7: Du kan bruke RB LT eller RT.
+Metrics:
+{'bleu': 3.43, 'r1': 0.21, 'r2': 0.0, 'rl': 0.21, 'chrF': 14.76, 'chrf++': 14.02, 'bert_f1': 0.71, 'length': 28.0, 'len_ratio': 0.46}
+- 0.8: Du kan bruke LB RB LT eller RT.
+Metrics:
+{'bleu': 3.6, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 14.62, 'chrf++': 13.87, 'bert_f1': 0.69, 'length': 31.0, 'len_ratio': 0.51}
+- 0.9: Og avhengig av hva du vil bygge kan du bruke LB RB eller RT.
+Metrics:
+{'bleu': 21.65, 'r1': 0.62, 'r2': 0.42, 'rl': 0.62, 'chrF': 47.79, 'chrf++': 47.58, 'bert_f1': 0.85, 'length': 60.0, 'len_ratio': 0.98}
+- 1.0: Og avhengig av hva du vil bygge kan du bruke LB RB LT eller RT
+Metrics:
+{'bleu': 21.02, 'r1': 0.59, 'r2': 0.4, 'rl': 0.59, 'chrF': 47.25, 'chrf++': 46.29, 'bert_f1': 0.81, 'length': 62.0, 'len_ratio': 1.02}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Vi kan bruke RB eller RT.
+Baseline metrics:
+{'bleu': 3.18, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 15.29, 'chrf++': 14.46, 'bert_f1': 0.74, 'length': 25.0, 'len_ratio': 0.41}
+====================================================================================================
+
+Source: in a minute I wanna show Howard I can play this game
+Target: Jeg vil vise at jeg klarer det.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.85, 'chrf++': 5.88, 'bert_f1': 0.6, 'length': 3.0, 'len_ratio': 0.1}
+- 0.6: Jeg vil vise Howard
+Metrics:
+{'bleu': 21.87, 'r1': 0.55, 'r2': 0.44, 'rl': 0.55, 'chrF': 39.46, 'chrf++': 38.89, 'bert_f1': 0.76, 'length': 19.0, 'len_ratio': 0.61}
+- 0.7: Jeg vil vise Howard.
+Metrics:
+{'bleu': 23.45, 'r1': 0.55, 'r2': 0.44, 'rl': 0.55, 'chrF': 39.8, 'chrf++': 40.52, 'bert_f1': 0.83, 'length': 20.0, 'len_ratio': 0.65}
+- 0.8: Jeg vil vise Howard at jeg kan spille.
+Metrics:
+{'bleu': 23.36, 'r1': 0.67, 'r2': 0.46, 'rl': 0.67, 'chrF': 50.75, 'chrf++': 52.44, 'bert_f1': 0.88, 'length': 38.0, 'len_ratio': 1.23}
+- 0.9: Jeg vil vise Howard at jeg kan spille.
+Metrics:
+{'bleu': 23.36, 'r1': 0.67, 'r2': 0.46, 'rl': 0.67, 'chrF': 50.75, 'chrf++': 52.44, 'bert_f1': 0.88, 'length': 38.0, 'len_ratio': 1.23}
+- 1.0: Jeg vil vise Howard at jeg kan spille.
+Metrics:
+{'bleu': 23.36, 'r1': 0.67, 'r2': 0.46, 'rl': 0.67, 'chrF': 50.75, 'chrf++': 52.44, 'bert_f1': 0.88, 'length': 38.0, 'len_ratio': 1.23}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: På et øyeblikk vil jeg vise Howard jeg kan spille dette spillet
+Baseline metrics:
+{'bleu': 4.46, 'r1': 0.42, 'r2': 0.0, 'rl': 0.32, 'chrF': 26.52, 'chrf++': 24.25, 'bert_f1': 0.74, 'length': 63.0, 'len_ratio': 2.03}
+====================================================================================================
+
+Source: why not? You don't think other women find him attractive?
+Target: Kan ikke andre kvinner like han?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hvorfor ikke?
+Metrics:
+{'bleu': 0.0, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 10.04, 'chrf++': 11.56, 'bert_f1': 0.74, 'length': 13.0, 'len_ratio': 0.41}
+- 0.6: Er han ikke attraktiv for andre?
+Metrics:
+{'bleu': 9.29, 'r1': 0.5, 'r2': 0.0, 'rl': 0.33, 'chrF': 32.74, 'chrf++': 31.7, 'bert_f1': 0.78, 'length': 32.0, 'len_ratio': 1.0}
+- 0.7: Tror du ikke andre kvinner synes han er attraktiv?
+Metrics:
+{'bleu': 17.75, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 55.65, 'chrf++': 53.77, 'bert_f1': 0.82, 'length': 50.0, 'len_ratio': 1.56}
+- 0.8: Tror du ikke andre kvinner synes han er attraktiv?
+Metrics:
+{'bleu': 17.75, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 55.65, 'chrf++': 53.77, 'bert_f1': 0.82, 'length': 50.0, 'len_ratio': 1.56}
+- 0.9: Tror du ikke andre kvinner synes han er attraktiv?
+Metrics:
+{'bleu': 17.75, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 55.65, 'chrf++': 53.77, 'bert_f1': 0.82, 'length': 50.0, 'len_ratio': 1.56}
+- 1.0: Tror du ikke andre kvinner synes han er attraktiv?
+Metrics:
+{'bleu': 17.75, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 55.65, 'chrf++': 53.77, 'bert_f1': 0.82, 'length': 50.0, 'len_ratio': 1.56}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Tror du ikke andre kvinner synes han er attraktiv?
+Baseline metrics:
+{'bleu': 17.75, 'r1': 0.53, 'r2': 0.31, 'rl': 0.53, 'chrF': 55.65, 'chrf++': 53.77, 'bert_f1': 0.82, 'length': 50.0, 'len_ratio': 1.56}
+====================================================================================================
+
+Source: you know what sure the three of us in the library looking up old papers that actually could be kinda fun
+Target: Ja vel. Det blir gøy å lete gjennom gamle artikler med dere to.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi tre på biblioteket ser etter gamle papirer.
+Metrics:
+{'bleu': 2.91, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 18.46, 'chrf++': 15.67, 'bert_f1': 0.73, 'length': 46.0, 'len_ratio': 0.73}
+- 0.6: Vi tre på biblioteket ser på gamle papirer.
+Metrics:
+{'bleu': 2.91, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 15.85, 'chrf++': 13.71, 'bert_f1': 0.73, 'length': 43.0, 'len_ratio': 0.68}
+- 0.7: Vi tre på biblioteket leter etter gamle papirer.
+Metrics:
+{'bleu': 2.91, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 20.76, 'chrf++': 17.4, 'bert_f1': 0.75, 'length': 48.0, 'len_ratio': 0.76}
+- 0.8: Vi tre i biblioteket ser på gamle papirer som kan være morsomme.
+Metrics:
+{'bleu': 3.15, 'r1': 0.08, 'r2': 0.0, 'rl': 0.08, 'chrF': 18.04, 'chrf++': 15.25, 'bert_f1': 0.72, 'length': 64.0, 'len_ratio': 1.02}
+- 0.9: Du vet hva som er sikkert at vi tre på biblioteket leter opp gamle papirer som faktisk kan være gøy.
+Metrics:
+{'bleu': 2.39, 'r1': 0.17, 'r2': 0.06, 'rl': 0.11, 'chrF': 22.79, 'chrf++': 19.41, 'bert_f1': 0.74, 'length': 100.0, 'len_ratio': 1.59}
+- 1.0: Du vet hva som er sikker på at vi tre på biblioteket leter opp gamle papirer som faktisk kan være litt moro
+Metrics:
+{'bleu': 1.73, 'r1': 0.06, 'r2': 0.0, 'rl': 0.06, 'chrF': 20.35, 'chrf++': 16.03, 'bert_f1': 0.7, 'length': 107.0, 'len_ratio': 1.7}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: vet du hva som er sikkert at vi tre i biblioteket ser opp gamle papirer som faktisk kan være litt moro
+Baseline metrics:
+{'bleu': 1.82, 'r1': 0.06, 'r2': 0.0, 'rl': 0.06, 'chrF': 18.85, 'chrf++': 14.91, 'bert_f1': 0.68, 'length': 102.0, 'len_ratio': 1.62}
+====================================================================================================
+
+Source: I don't know if you'd like it it's kinda for gamers
+Target: Det er mest for gamers.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg vet ikke.
+Metrics:
+{'bleu': 9.69, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 6.76, 'chrf++': 7.31, 'bert_f1': 0.71, 'length': 13.0, 'len_ratio': 0.57}
+- 0.6: Jeg vet ikke.
+Metrics:
+{'bleu': 9.69, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 6.76, 'chrf++': 7.31, 'bert_f1': 0.71, 'length': 13.0, 'len_ratio': 0.57}
+- 0.7: Det er for spillere.
+Metrics:
+{'bleu': 20.8, 'r1': 0.67, 'r2': 0.29, 'rl': 0.67, 'chrF': 26.52, 'chrf++': 31.12, 'bert_f1': 0.86, 'length': 20.0, 'len_ratio': 0.87}
+- 0.8: Det er for spillere.
+Metrics:
+{'bleu': 20.8, 'r1': 0.67, 'r2': 0.29, 'rl': 0.67, 'chrF': 26.52, 'chrf++': 31.12, 'bert_f1': 0.86, 'length': 20.0, 'len_ratio': 0.87}
+- 0.9: Jeg vet ikke om det er for spillere.
+Metrics:
+{'bleu': 6.27, 'r1': 0.46, 'r2': 0.18, 'rl': 0.46, 'chrF': 21.3, 'chrf++': 21.66, 'bert_f1': 0.76, 'length': 36.0, 'len_ratio': 1.57}
+- 1.0: Jeg vet ikke om det er for spillere.
+Metrics:
+{'bleu': 6.27, 'r1': 0.46, 'r2': 0.18, 'rl': 0.46, 'chrF': 21.3, 'chrf++': 21.66, 'bert_f1': 0.76, 'length': 36.0, 'len_ratio': 1.57}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg vet ikke om du vil ha det for spillere
+Baseline metrics:
+{'bleu': 4.2, 'r1': 0.27, 'r2': 0.0, 'rl': 0.27, 'chrF': 18.08, 'chrf++': 15.4, 'bert_f1': 0.71, 'length': 42.0, 'len_ratio': 1.83}
+====================================================================================================
+
+Source: okay this citation is correct how're you doing?
+Target: Dette stemmer. Hvordan går det?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hvordan går det?
+Metrics:
+{'bleu': 47.24, 'r1': 0.8, 'r2': 0.75, 'rl': 0.8, 'chrF': 52.25, 'chrf++': 53.97, 'bert_f1': 0.91, 'length': 16.0, 'len_ratio': 0.52}
+- 0.6: Hvordan går det?
+Metrics:
+{'bleu': 47.24, 'r1': 0.8, 'r2': 0.75, 'rl': 0.8, 'chrF': 52.25, 'chrf++': 53.97, 'bert_f1': 0.91, 'length': 16.0, 'len_ratio': 0.52}
+- 0.7: Hvordan har du det?
+Metrics:
+{'bleu': 15.85, 'r1': 0.4, 'r2': 0.0, 'rl': 0.4, 'chrF': 28.1, 'chrf++': 29.02, 'bert_f1': 0.86, 'length': 19.0, 'len_ratio': 0.61}
+- 0.8: Hvordan har du det?
+Metrics:
+{'bleu': 15.85, 'r1': 0.4, 'r2': 0.0, 'rl': 0.4, 'chrF': 28.1, 'chrf++': 29.02, 'bert_f1': 0.86, 'length': 19.0, 'len_ratio': 0.61}
+- 0.9: Hvordan har du det?
+Metrics:
+{'bleu': 15.85, 'r1': 0.4, 'r2': 0.0, 'rl': 0.4, 'chrF': 28.1, 'chrf++': 29.02, 'bert_f1': 0.86, 'length': 19.0, 'len_ratio': 0.61}
+- 1.0: Hvordan går det med dette?
+Metrics:
+{'bleu': 27.48, 'r1': 0.83, 'r2': 0.6, 'rl': 0.67, 'chrF': 53.66, 'chrf++': 51.91, 'bert_f1': 0.89, 'length': 26.0, 'len_ratio': 0.84}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: OK denne henvisningen er riktig hvordan du gjør?
+Baseline metrics:
+{'bleu': 4.77, 'r1': 0.27, 'r2': 0.0, 'rl': 0.27, 'chrF': 20.93, 'chrf++': 17.39, 'bert_f1': 0.72, 'length': 48.0, 'len_ratio': 1.55}
+====================================================================================================
+
+Source: no it actually makes it more exciting we have to go through all of this before I run out of this
+Target: Nei, dette gjør det mer spennende. Vi må blir ferdig før denne er tom.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.12, 'r2': 0.0, 'rl': 0.12, 'chrF': 3.82, 'chrf++': 4.94, 'bert_f1': 0.6, 'length': 4.0, 'len_ratio': 0.06}
+- 0.6: Nei, det gjør det mer spennende.
+Metrics:
+{'bleu': 19.3, 'r1': 0.52, 'r2': 0.38, 'rl': 0.52, 'chrF': 45.17, 'chrf++': 44.04, 'bert_f1': 0.87, 'length': 32.0, 'len_ratio': 0.46}
+- 0.7: Nei, det gjør det mer spennende.
+Metrics:
+{'bleu': 19.3, 'r1': 0.52, 'r2': 0.38, 'rl': 0.52, 'chrF': 45.17, 'chrf++': 44.04, 'bert_f1': 0.87, 'length': 32.0, 'len_ratio': 0.46}
+- 0.8: Nei, det gjør det mer spennende.
+Metrics:
+{'bleu': 19.3, 'r1': 0.52, 'r2': 0.38, 'rl': 0.52, 'chrF': 45.17, 'chrf++': 44.04, 'bert_f1': 0.87, 'length': 32.0, 'len_ratio': 0.46}
+- 0.9: Nei, det gjør det mer spennende.
+Metrics:
+{'bleu': 19.3, 'r1': 0.52, 'r2': 0.38, 'rl': 0.52, 'chrF': 45.17, 'chrf++': 44.04, 'bert_f1': 0.87, 'length': 32.0, 'len_ratio': 0.46}
+- 1.0: Nei det gjør det mer spennende at vi må gå gjennom alt dette før jeg slipper ut av dette
+Metrics:
+{'bleu': 15.07, 'r1': 0.59, 'r2': 0.34, 'rl': 0.54, 'chrF': 44.69, 'chrf++': 41.56, 'bert_f1': 0.81, 'length': 88.0, 'len_ratio': 1.26}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Nei det faktisk gjør det mer spennende vi må gå gjennom alt dette før jeg går tom for dette
+Baseline metrics:
+{'bleu': 15.52, 'r1': 0.63, 'r2': 0.39, 'rl': 0.58, 'chrF': 46.22, 'chrf++': 43.44, 'bert_f1': 0.79, 'length': 91.0, 'len_ratio': 1.3}
+====================================================================================================
+
+Source: really video games? Is this some sort of freaky Friday thing where you're actually Howard?
+Target: Spiller du? Er det som i Freaky Friday, og du egentlig er Howard?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Er dette en frekke fredagssak?
+Metrics:
+{'bleu': 1.82, 'r1': 0.11, 'r2': 0.0, 'rl': 0.11, 'chrF': 12.44, 'chrf++': 11.13, 'bert_f1': 0.69, 'length': 30.0, 'len_ratio': 0.46}
+- 0.6: Er det virkelig videospill?
+Metrics:
+{'bleu': 2.62, 'r1': 0.24, 'r2': 0.13, 'rl': 0.24, 'chrF': 15.11, 'chrf++': 15.06, 'bert_f1': 0.7, 'length': 27.0, 'len_ratio': 0.42}
+- 0.7: Er det en frekke fredagsgreia der du er Howard?
+Metrics:
+{'bleu': 11.28, 'r1': 0.45, 'r2': 0.3, 'rl': 0.45, 'chrF': 28.71, 'chrf++': 29.33, 'bert_f1': 0.73, 'length': 47.0, 'len_ratio': 0.72}
+- 0.8: Er det en frekke fredagsgreia der du er Howard?
+Metrics:
+{'bleu': 11.28, 'r1': 0.45, 'r2': 0.3, 'rl': 0.45, 'chrF': 28.71, 'chrf++': 29.33, 'bert_f1': 0.73, 'length': 47.0, 'len_ratio': 0.72}
+- 0.9: Er dette en sprø fredagssak der du er Howard?
+Metrics:
+{'bleu': 9.74, 'r1': 0.36, 'r2': 0.2, 'rl': 0.36, 'chrF': 29.28, 'chrf++': 28.01, 'bert_f1': 0.73, 'length': 45.0, 'len_ratio': 0.69}
+- 1.0: Er det en slags frekke fredagsgreia der du er Howard?
+Metrics:
+{'bleu': 11.65, 'r1': 0.43, 'r2': 0.29, 'rl': 0.43, 'chrF': 28.78, 'chrf++': 29.29, 'bert_f1': 0.73, 'length': 53.0, 'len_ratio': 0.82}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Er dette en slags freakday-sak hvor du faktisk er Howard?
+Baseline metrics:
+{'bleu': 10.06, 'r1': 0.33, 'r2': 0.09, 'rl': 0.33, 'chrF': 28.34, 'chrf++': 27.26, 'bert_f1': 0.74, 'length': 57.0, 'len_ratio': 0.88}
+====================================================================================================
+
+Source: oh gosh my Russian's a little rusty
+Target: Jeg er litt rusten.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 5.51, 'chrf++': 7.49, 'bert_f1': 0.63, 'length': 4.0, 'len_ratio': 0.21}
+- 0.6: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 5.51, 'chrf++': 7.49, 'bert_f1': 0.63, 'length': 4.0, 'len_ratio': 0.21}
+- 0.7: Å nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 5.8, 'chrf++': 7.31, 'bert_f1': 0.75, 'length': 6.0, 'len_ratio': 0.32}
+- 0.8: Å, nei.
+Metrics:
+{'bleu': 12.44, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.76, 'chrf++': 6.26, 'bert_f1': 0.68, 'length': 7.0, 'len_ratio': 0.37}
+- 0.9: Russeren min er litt rusten.
+Metrics:
+{'bleu': 50.81, 'r1': 0.67, 'r2': 0.57, 'rl': 0.67, 'chrF': 70.12, 'chrf++': 71.32, 'bert_f1': 0.85, 'length': 28.0, 'len_ratio': 1.47}
+- 1.0: Å, nei.
+Metrics:
+{'bleu': 12.44, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.76, 'chrf++': 6.26, 'bert_f1': 0.68, 'length': 7.0, 'len_ratio': 0.37}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Oh Gud min russiske er litt rusten
+Baseline metrics:
+{'bleu': 24.45, 'r1': 0.55, 'r2': 0.44, 'rl': 0.55, 'chrF': 60.23, 'chrf++': 57.95, 'bert_f1': 0.72, 'length': 34.0, 'len_ratio': 1.79}
+====================================================================================================
+
+Source: wait so Amy and Sheldon weren't the first to think of super asymmetry?
+Target: Så de var ikke først ute med superasymmetri?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Var Amy og Sheldon ikke de første?
+Metrics:
+{'bleu': 6.41, 'r1': 0.47, 'r2': 0.0, 'rl': 0.35, 'chrF': 22.02, 'chrf++': 20.79, 'bert_f1': 0.71, 'length': 34.0, 'len_ratio': 0.77}
+- 0.6: Var Amy og Sheldon ikke de første?
+Metrics:
+{'bleu': 6.41, 'r1': 0.47, 'r2': 0.0, 'rl': 0.35, 'chrF': 22.02, 'chrf++': 20.79, 'bert_f1': 0.71, 'length': 34.0, 'len_ratio': 0.77}
+- 0.7: Var Amy og Sheldon ikke de første som kom på asymmetri?
+Metrics:
+{'bleu': 4.46, 'r1': 0.38, 'r2': 0.0, 'rl': 0.29, 'chrF': 41.05, 'chrf++': 34.7, 'bert_f1': 0.75, 'length': 55.0, 'len_ratio': 1.25}
+- 0.8: Var ikke Amy og Sheldon de første som kom på superasymmetri?
+Metrics:
+{'bleu': 8.05, 'r1': 0.48, 'r2': 0.11, 'rl': 0.38, 'chrF': 55.85, 'chrf++': 48.55, 'bert_f1': 0.82, 'length': 60.0, 'len_ratio': 1.36}
+- 0.9: Var ikke Amy og Sheldon de første til å tenke på superasymmetrisk?
+Metrics:
+{'bleu': 4.07, 'r1': 0.38, 'r2': 0.11, 'rl': 0.29, 'chrF': 52.59, 'chrf++': 43.27, 'bert_f1': 0.78, 'length': 66.0, 'len_ratio': 1.5}
+- 1.0: Så Amy og Sheldon var ikke de første til å tenke på superasymmetrisk?
+Metrics:
+{'bleu': 7.14, 'r1': 0.45, 'r2': 0.1, 'rl': 0.36, 'chrF': 55.49, 'chrf++': 49.25, 'bert_f1': 0.83, 'length': 69.0, 'len_ratio': 1.57}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Så Amy og Sheldon var ikke de første til å tenke på super asymmetri?
+Baseline metrics:
+{'bleu': 6.61, 'r1': 0.43, 'r2': 0.1, 'rl': 0.35, 'chrF': 58.28, 'chrf++': 51.21, 'bert_f1': 0.79, 'length': 68.0, 'len_ratio': 1.55}
+====================================================================================================
+
+Source: okay okay how about this we all tell him?
+Target: Vi sier det sammen.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Hva med dette?
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.63, 'chrf++': 10.23, 'bert_f1': 0.76, 'length': 14.0, 'len_ratio': 0.74}
+- 0.6: Hva med dette?
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.63, 'chrf++': 10.23, 'bert_f1': 0.76, 'length': 14.0, 'len_ratio': 0.74}
+- 0.7: Hva med dette?
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.63, 'chrf++': 10.23, 'bert_f1': 0.76, 'length': 14.0, 'len_ratio': 0.74}
+- 0.8: Hva med dette?
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.63, 'chrf++': 10.23, 'bert_f1': 0.76, 'length': 14.0, 'len_ratio': 0.74}
+- 0.9: Hva med dette?
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.63, 'chrf++': 10.23, 'bert_f1': 0.76, 'length': 14.0, 'len_ratio': 0.74}
+- 1.0: Hva med dette?
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.63, 'chrf++': 10.23, 'bert_f1': 0.76, 'length': 14.0, 'len_ratio': 0.74}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: OK hva med dette vi alle fortelle ham?
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 13.46, 'chrf++': 10.09, 'bert_f1': 0.76, 'length': 38.0, 'len_ratio': 2.0}
+====================================================================================================
+
+Source: I was hoping Stuart could show me how to play Fortnite
+Target: Jeg vil lære å spille Fortnite.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.47, 'chrf++': 5.12, 'bert_f1': 0.64, 'length': 4.0, 'len_ratio': 0.13}
+- 0.6: Jeg håpet Stuart kunne vise meg
+Metrics:
+{'bleu': 6.87, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 12.98, 'chrf++': 11.58, 'bert_f1': 0.69, 'length': 31.0, 'len_ratio': 1.0}
+- 0.7: Jeg håpet Stuart kunne vise meg
+Metrics:
+{'bleu': 6.87, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 12.98, 'chrf++': 11.58, 'bert_f1': 0.69, 'length': 31.0, 'len_ratio': 1.0}
+- 0.8: Jeg håpet Stuart kunne vise meg Fortnite.
+Metrics:
+{'bleu': 12.22, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 34.46, 'chrf++': 33.1, 'bert_f1': 0.82, 'length': 41.0, 'len_ratio': 1.32}
+- 0.9: Jeg håpet Stuart kunne vise meg Fortnite
+Metrics:
+{'bleu': 7.81, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 30.72, 'chrf++': 26.66, 'bert_f1': 0.72, 'length': 40.0, 'len_ratio': 1.29}
+- 1.0: Jeg håpet Stuart kunne vise meg hvordan man spiller Fortnite
+Metrics:
+{'bleu': 4.99, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 37.52, 'chrf++': 31.51, 'bert_f1': 0.73, 'length': 60.0, 'len_ratio': 1.94}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg håpet Stuart kunne vise meg hvordan man spiller Fortnite
+Baseline metrics:
+{'bleu': 4.99, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 37.52, 'chrf++': 31.51, 'bert_f1': 0.73, 'length': 60.0, 'len_ratio': 1.94}
+====================================================================================================
+
+Source: I didn't hear a podcast
+Target: Jeg hørte ingenting.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 6.7, 'chrf++': 9.21, 'bert_f1': 0.66, 'length': 4.0, 'len_ratio': 0.2}
+- 0.6: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 6.7, 'chrf++': 9.21, 'bert_f1': 0.66, 'length': 4.0, 'len_ratio': 0.2}
+- 0.7: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 6.7, 'chrf++': 9.21, 'bert_f1': 0.66, 'length': 4.0, 'len_ratio': 0.2}
+- 0.8: Jeg hørte ikke podkast.
+Metrics:
+{'bleu': 23.64, 'r1': 0.67, 'r2': 0.57, 'rl': 0.67, 'chrF': 42.9, 'chrf++': 45.04, 'bert_f1': 0.89, 'length': 23.0, 'len_ratio': 1.15}
+- 0.9: Jeg hørte ingen podcast
+Metrics:
+{'bleu': 31.95, 'r1': 0.67, 'r2': 0.57, 'rl': 0.67, 'chrF': 66.55, 'chrf++': 60.35, 'bert_f1': 0.82, 'length': 23.0, 'len_ratio': 1.15}
+- 1.0: Jeg hørte ingen podcast
+Metrics:
+{'bleu': 31.95, 'r1': 0.67, 'r2': 0.57, 'rl': 0.67, 'chrF': 66.55, 'chrf++': 60.35, 'bert_f1': 0.82, 'length': 23.0, 'len_ratio': 1.15}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg hørte ikke en podcast
+Baseline metrics:
+{'bleu': 21.36, 'r1': 0.6, 'r2': 0.5, 'rl': 0.6, 'chrF': 43.33, 'chrf++': 42.36, 'bert_f1': 0.8, 'length': 25.0, 'len_ratio': 1.25}
+====================================================================================================
+
+Source: actually I need to talk to both of you about your paper
+Target: Jeg må faktisk prate med dere.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.61, 'chrf++': 5.2, 'bert_f1': 0.61, 'length': 4.0, 'len_ratio': 0.13}
+- 0.6: Jeg må snakke med dere om avisen
+Metrics:
+{'bleu': 18.58, 'r1': 0.62, 'r2': 0.36, 'rl': 0.62, 'chrF': 39.65, 'chrf++': 41.05, 'bert_f1': 0.83, 'length': 32.0, 'len_ratio': 1.07}
+- 0.7: Jeg må snakke om avisen din.
+Metrics:
+{'bleu': 14.54, 'r1': 0.33, 'r2': 0.2, 'rl': 0.33, 'chrF': 19.64, 'chrf++': 22.18, 'bert_f1': 0.82, 'length': 28.0, 'len_ratio': 0.93}
+- 0.8: Jeg må snakke om avisen din.
+Metrics:
+{'bleu': 14.54, 'r1': 0.33, 'r2': 0.2, 'rl': 0.33, 'chrF': 19.64, 'chrf++': 22.18, 'bert_f1': 0.82, 'length': 28.0, 'len_ratio': 0.93}
+- 0.9: Jeg må snakke med dere om avisen
+Metrics:
+{'bleu': 18.58, 'r1': 0.62, 'r2': 0.36, 'rl': 0.62, 'chrF': 39.65, 'chrf++': 41.05, 'bert_f1': 0.83, 'length': 32.0, 'len_ratio': 1.07}
+- 1.0: Jeg må snakke med dere om avisen.
+Metrics:
+{'bleu': 16.52, 'r1': 0.62, 'r2': 0.36, 'rl': 0.62, 'chrF': 39.97, 'chrf++': 42.69, 'bert_f1': 0.87, 'length': 33.0, 'len_ratio': 1.1}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg trenger faktisk å snakke med dere om papiret ditt
+Baseline metrics:
+{'bleu': 9.98, 'r1': 0.53, 'r2': 0.15, 'rl': 0.53, 'chrF': 44.37, 'chrf++': 41.83, 'bert_f1': 0.83, 'length': 53.0, 'len_ratio': 1.77}
+====================================================================================================
+
+Source: hey do you wanna play the game or do you wanna crawl back up your mommy's shirt and chow down like a baby?
+Target: Vil du spille eller krype tilbake til mamma og sutte på puppen?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vil du leke eller krype tilbake?
+Metrics:
+{'bleu': 13.65, 'r1': 0.56, 'r2': 0.37, 'rl': 0.56, 'chrF': 41.64, 'chrf++': 41.07, 'bert_f1': 0.86, 'length': 32.0, 'len_ratio': 0.51}
+- 0.6: Vil du leke eller krype opp mammas skjorte?
+Metrics:
+{'bleu': 9.14, 'r1': 0.4, 'r2': 0.22, 'rl': 0.4, 'chrF': 33.94, 'chrf++': 32.81, 'bert_f1': 0.86, 'length': 43.0, 'len_ratio': 0.68}
+- 0.7: Vil du leke eller krype tilbake i mors skjorte?
+Metrics:
+{'bleu': 15.23, 'r1': 0.48, 'r2': 0.32, 'rl': 0.48, 'chrF': 42.23, 'chrf++': 41.01, 'bert_f1': 0.86, 'length': 47.0, 'len_ratio': 0.75}
+- 0.8: Vil du leke eller krype tilbake i skjorta og spise som en baby?
+Metrics:
+{'bleu': 14.46, 'r1': 0.48, 'r2': 0.26, 'rl': 0.48, 'chrF': 45.1, 'chrf++': 43.54, 'bert_f1': 0.87, 'length': 63.0, 'len_ratio': 1.0}
+- 0.9: Vil du leke eller krype tilbake i mors skjorte?
+Metrics:
+{'bleu': 15.23, 'r1': 0.48, 'r2': 0.32, 'rl': 0.48, 'chrF': 42.23, 'chrf++': 41.01, 'bert_f1': 0.86, 'length': 47.0, 'len_ratio': 0.75}
+- 1.0: Vil du leke eller krype tilbake i mors skjorte?
+Metrics:
+{'bleu': 15.23, 'r1': 0.48, 'r2': 0.32, 'rl': 0.48, 'chrF': 42.23, 'chrf++': 41.01, 'bert_f1': 0.86, 'length': 47.0, 'len_ratio': 0.75}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Hei vil du spille spillet eller vil du krype tilbake opp morens skjorte og chow ned som en baby?
+Baseline metrics:
+{'bleu': 6.23, 'r1': 0.45, 'r2': 0.21, 'rl': 0.45, 'chrF': 42.42, 'chrf++': 39.75, 'bert_f1': 0.8, 'length': 96.0, 'len_ratio': 1.52}
+====================================================================================================
+
+Source: I don't understand how you're not more upset by this is your paper too
+Target: Hvorfor er du ikke mer lei deg?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg forstår ikke.
+Metrics:
+{'bleu': 5.88, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 15.01, 'chrf++': 13.0, 'bert_f1': 0.71, 'length': 17.0, 'len_ratio': 0.55}
+- 0.6: Dette er avisen din også.
+Metrics:
+{'bleu': 5.82, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 8.29, 'chrf++': 7.87, 'bert_f1': 0.67, 'length': 25.0, 'len_ratio': 0.81}
+- 0.7: Du er ikke mer opprørt over dette.
+Metrics:
+{'bleu': 12.22, 'r1': 0.53, 'r2': 0.15, 'rl': 0.4, 'chrF': 28.94, 'chrf++': 28.19, 'bert_f1': 0.66, 'length': 34.0, 'len_ratio': 1.1}
+- 0.8: Jeg forstår ikke hvordan du ikke er mer opprørt.
+Metrics:
+{'bleu': 9.98, 'r1': 0.44, 'r2': 0.12, 'rl': 0.33, 'chrF': 30.34, 'chrf++': 30.47, 'bert_f1': 0.74, 'length': 48.0, 'len_ratio': 1.55}
+- 0.9: Jeg skjønner ikke at du ikke er mer opprørt over dette er avisen din også
+Metrics:
+{'bleu': 6.25, 'r1': 0.33, 'r2': 0.09, 'rl': 0.25, 'chrF': 23.88, 'chrf++': 24.78, 'bert_f1': 0.67, 'length': 73.0, 'len_ratio': 2.35}
+- 1.0: Jeg forstår ikke hvordan du ikke er mer opprørt av dette er avisen din også
+Metrics:
+{'bleu': 6.25, 'r1': 0.33, 'r2': 0.09, 'rl': 0.25, 'chrF': 26.78, 'chrf++': 26.98, 'bert_f1': 0.68, 'length': 75.0, 'len_ratio': 2.42}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg forstår ikke hvordan du ikke er mer opprørt av dette er din avis også
+Baseline metrics:
+{'bleu': 6.25, 'r1': 0.33, 'r2': 0.09, 'rl': 0.25, 'chrF': 27.69, 'chrf++': 27.64, 'bert_f1': 0.69, 'length': 73.0, 'len_ratio': 2.35}
+====================================================================================================
+
+Source: well I don't need you to pretend to be okay for me if anything that makes it worse
+Target: Ikke lat som du har det bra. Det gjør det bare verre.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Du må ikke late som om det blir verre.
+Metrics:
+{'bleu': 6.69, 'r1': 0.45, 'r2': 0.0, 'rl': 0.36, 'chrF': 27.93, 'chrf++': 25.76, 'bert_f1': 0.8, 'length': 38.0, 'len_ratio': 0.72}
+- 0.6: Du må ikke late som om det blir verre.
+Metrics:
+{'bleu': 6.69, 'r1': 0.45, 'r2': 0.0, 'rl': 0.36, 'chrF': 27.93, 'chrf++': 25.76, 'bert_f1': 0.8, 'length': 38.0, 'len_ratio': 0.72}
+- 0.7: Du må ikke late som om noe gjør det verre.
+Metrics:
+{'bleu': 8.53, 'r1': 0.58, 'r2': 0.18, 'rl': 0.5, 'chrF': 34.14, 'chrf++': 32.28, 'bert_f1': 0.81, 'length': 42.0, 'len_ratio': 0.79}
+- 0.8: Du må ikke late som om noe som gjør det verre.
+Metrics:
+{'bleu': 8.57, 'r1': 0.56, 'r2': 0.17, 'rl': 0.48, 'chrF': 33.61, 'chrf++': 31.79, 'bert_f1': 0.8, 'length': 46.0, 'len_ratio': 0.87}
+- 0.9: Du må ikke late som om det er noe som gjør det verre.
+Metrics:
+{'bleu': 8.89, 'r1': 0.59, 'r2': 0.16, 'rl': 0.52, 'chrF': 36.43, 'chrf++': 34.61, 'bert_f1': 0.8, 'length': 53.0, 'len_ratio': 1.0}
+- 1.0: Du trenger ikke late som om du er ok for meg.
+Metrics:
+{'bleu': 3.77, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 20.66, 'chrf++': 18.25, 'bert_f1': 0.77, 'length': 45.0, 'len_ratio': 0.85}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg trenger ikke at du later som om du er OK for meg hvis noe som gjør det verre
+Baseline metrics:
+{'bleu': 5.09, 'r1': 0.42, 'r2': 0.13, 'rl': 0.42, 'chrF': 29.39, 'chrf++': 27.11, 'bert_f1': 0.74, 'length': 80.0, 'len_ratio': 1.51}
+====================================================================================================
+
+Source: fine. I'm not okay. We came up with this idea at our wedding we poured months of our lives into it I thought we were changing the course of science and now it's all gone I'm devastated
+Target: Ja vel. Jeg syns ikke at det er noe greit. Vi fant på dette i bryllupet vårt. Vi jobbet med det i flere måneder. Jeg trodde vi revolusjonerte vitenskapen. Jeg er knust.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg trodde vi endret vitenskapens kurs.
+Metrics:
+{'bleu': 0.31, 'r1': 0.15, 'r2': 0.11, 'rl': 0.15, 'chrF': 17.33, 'chrf++': 15.39, 'bert_f1': 0.76, 'length': 39.0, 'len_ratio': 0.23}
+- 0.6: Jeg trodde vi forandret vitenskapens kurs.
+Metrics:
+{'bleu': 0.31, 'r1': 0.15, 'r2': 0.11, 'rl': 0.15, 'chrF': 17.95, 'chrf++': 15.86, 'bert_f1': 0.76, 'length': 42.0, 'len_ratio': 0.25}
+- 0.7: Vi fant på en ide om at vi hadde flere måneder av livet i bryllupet.
+Metrics:
+{'bleu': 3.7, 'r1': 0.4, 'r2': 0.21, 'rl': 0.28, 'chrF': 24.17, 'chrf++': 23.38, 'bert_f1': 0.74, 'length': 68.0, 'len_ratio': 0.4}
+- 0.8: Vi fant på en idé i vårt bryllup.
+Metrics:
+{'bleu': 0.84, 'r1': 0.28, 'r2': 0.15, 'rl': 0.28, 'chrF': 11.34, 'chrf++': 11.65, 'bert_f1': 0.75, 'length': 33.0, 'len_ratio': 0.2}
+- 0.9: Vi fant på en idé i bryllupet vårt som vi utslettet i månedsvis.
+Metrics:
+{'bleu': 3.54, 'r1': 0.41, 'r2': 0.21, 'rl': 0.41, 'chrF': 21.7, 'chrf++': 21.21, 'bert_f1': 0.73, 'length': 64.0, 'len_ratio': 0.38}
+- 1.0: Vi kom på ideen om at vi hadde flere måneder av livet.
+Metrics:
+{'bleu': 1.24, 'r1': 0.3, 'r2': 0.09, 'rl': 0.26, 'chrF': 14.56, 'chrf++': 13.96, 'bert_f1': 0.72, 'length': 54.0, 'len_ratio': 0.32}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Vi kom opp med denne ideen på vårt bryllup vi hellte måneder av våre liv inn i det trodde jeg vi forandret vitenskapen og nå er alt borte jeg er ødelagt
+Baseline metrics:
+{'bleu': 1.78, 'r1': 0.5, 'r2': 0.09, 'rl': 0.35, 'chrF': 32.28, 'chrf++': 28.32, 'bert_f1': 0.74, 'length': 152.0, 'len_ratio': 0.9}
+====================================================================================================
+
+Source: would you mind if I gave it another shot?
+Target: Får jeg prøve igjen?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Kan jeg prøve?
+Metrics:
+{'bleu': 27.53, 'r1': 0.6, 'r2': 0.5, 'rl': 0.6, 'chrF': 41.87, 'chrf++': 42.54, 'bert_f1': 0.9, 'length': 14.0, 'len_ratio': 0.7}
+- 0.6: Får jeg prøve igjen?
+Metrics:
+{'bleu': 100.0, 'r1': 1.0, 'r2': 1.0, 'rl': 1.0, 'chrF': 100.0, 'chrf++': 100.0, 'bert_f1': 1.0, 'length': 20.0, 'len_ratio': 1.0}
+- 0.7: Får jeg prøve igjen?
+Metrics:
+{'bleu': 100.0, 'r1': 1.0, 'r2': 1.0, 'rl': 1.0, 'chrF': 100.0, 'chrf++': 100.0, 'bert_f1': 1.0, 'length': 20.0, 'len_ratio': 1.0}
+- 0.8: Får jeg prøve igjen?
+Metrics:
+{'bleu': 100.0, 'r1': 1.0, 'r2': 1.0, 'rl': 1.0, 'chrF': 100.0, 'chrf++': 100.0, 'bert_f1': 1.0, 'length': 20.0, 'len_ratio': 1.0}
+- 0.9: Har du noe imot det?
+Metrics:
+{'bleu': 8.12, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 7.01, 'chrf++': 7.68, 'bert_f1': 0.76, 'length': 20.0, 'len_ratio': 1.0}
+- 1.0: Kan jeg gi den en sjanse til?
+Metrics:
+{'bleu': 6.57, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 13.09, 'chrf++': 14.3, 'bert_f1': 0.78, 'length': 29.0, 'len_ratio': 1.45}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Er det i orden hvis jeg gir den et nytt forsøk?
+Baseline metrics:
+{'bleu': 4.03, 'r1': 0.11, 'r2': 0.0, 'rl': 0.11, 'chrF': 13.7, 'chrf++': 14.18, 'bert_f1': 0.75, 'length': 47.0, 'len_ratio': 2.35}
+====================================================================================================
+
+Source: son of a bitch
+Target: Helvete!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jævel
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 14.36, 'chrf++': 11.97, 'bert_f1': 0.68, 'length': 5.0, 'len_ratio': 0.62}
+- 0.6: Jævel
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 14.36, 'chrf++': 11.97, 'bert_f1': 0.68, 'length': 5.0, 'len_ratio': 0.62}
+- 0.7: Drittsekk
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.07, 'chrf++': 3.48, 'bert_f1': 0.65, 'length': 9.0, 'len_ratio': 1.12}
+- 0.8: Din jævel
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 11.01, 'chrf++': 8.26, 'bert_f1': 0.66, 'length': 9.0, 'len_ratio': 1.12}
+- 0.9: Drittsekk
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.07, 'chrf++': 3.48, 'bert_f1': 0.65, 'length': 9.0, 'len_ratio': 1.12}
+- 1.0: Drittsekk
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 4.07, 'chrf++': 3.48, 'bert_f1': 0.65, 'length': 9.0, 'len_ratio': 1.12}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Knep
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 3.47, 'chrf++': 2.78, 'bert_f1': 0.67, 'length': 4.0, 'len_ratio': 0.5}
+====================================================================================================
+
+Source: no I tried callin' but no one picked up
+Target: Nei, og de tar ikke telefonen.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 8.68, 'chrf++': 10.73, 'bert_f1': 0.64, 'length': 4.0, 'len_ratio': 0.13}
+- 0.6: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 8.68, 'chrf++': 10.73, 'bert_f1': 0.64, 'length': 4.0, 'len_ratio': 0.13}
+- 0.7: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 8.68, 'chrf++': 10.73, 'bert_f1': 0.64, 'length': 4.0, 'len_ratio': 0.13}
+- 0.8: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 8.68, 'chrf++': 10.73, 'bert_f1': 0.64, 'length': 4.0, 'len_ratio': 0.13}
+- 0.9: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 8.68, 'chrf++': 10.73, 'bert_f1': 0.64, 'length': 4.0, 'len_ratio': 0.13}
+- 1.0: Jeg prøvde å ringe.
+Metrics:
+{'bleu': 5.86, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 7.97, 'chrf++': 7.66, 'bert_f1': 0.73, 'length': 19.0, 'len_ratio': 0.63}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Nei jeg prøvde å ringe men ingen tok opp
+Baseline metrics:
+{'bleu': 4.77, 'r1': 0.13, 'r2': 0.0, 'rl': 0.13, 'chrF': 15.33, 'chrf++': 13.02, 'bert_f1': 0.69, 'length': 40.0, 'len_ratio': 1.33}
+====================================================================================================
+
+Source: I also texted to see if he wanted to go to the new Fantastic Beasts movie and they did respond
+Target: Han svarte ikke da jeg spurte om han ville se Fabeldyr 2.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg sa også at han ville gå på den nye filmen.
+Metrics:
+{'bleu': 6.9, 'r1': 0.26, 'r2': 0.1, 'rl': 0.26, 'chrF': 21.47, 'chrf++': 20.11, 'bert_f1': 0.74, 'length': 46.0, 'len_ratio': 0.81}
+- 0.6: Jeg sendte også SMS for å se om han ville gå på den nye filmen.
+Metrics:
+{'bleu': 10.34, 'r1': 0.38, 'r2': 0.17, 'rl': 0.31, 'chrF': 28.16, 'chrf++': 27.72, 'bert_f1': 0.76, 'length': 63.0, 'len_ratio': 1.11}
+- 0.7: Jeg sendte SMS for å se om han ville gå på den nye filmen.
+Metrics:
+{'bleu': 11.11, 'r1': 0.4, 'r2': 0.17, 'rl': 0.32, 'chrF': 27.92, 'chrf++': 27.65, 'bert_f1': 0.76, 'length': 58.0, 'len_ratio': 1.02}
+- 0.8: Jeg sms'er også for å se om han ville gå på den nye fantastiske Udyr-filmen.
+Metrics:
+{'bleu': 10.34, 'r1': 0.36, 'r2': 0.15, 'rl': 0.29, 'chrF': 29.69, 'chrf++': 28.85, 'bert_f1': 0.76, 'length': 76.0, 'len_ratio': 1.33}
+- 0.9: Jeg sms'er også for å se om han ville gå på den nye Fantastiske Udyr-filmen.
+Metrics:
+{'bleu': 10.34, 'r1': 0.36, 'r2': 0.15, 'rl': 0.29, 'chrF': 31.07, 'chrf++': 29.89, 'bert_f1': 0.76, 'length': 76.0, 'len_ratio': 1.33}
+- 1.0: Jeg sms'er også for å se om han ville gå på den nye Fantastiske Udyr-filmen.
+Metrics:
+{'bleu': 10.34, 'r1': 0.36, 'r2': 0.15, 'rl': 0.29, 'chrF': 31.07, 'chrf++': 29.89, 'bert_f1': 0.76, 'length': 76.0, 'len_ratio': 1.33}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg sendte også meldinger for å se om han ønsket å gå til den nye Fantastic Beasts filmen og de svarte
+Baseline metrics:
+{'bleu': 4.32, 'r1': 0.32, 'r2': 0.07, 'rl': 0.19, 'chrF': 26.88, 'chrf++': 24.51, 'bert_f1': 0.76, 'length': 102.0, 'len_ratio': 1.79}
+====================================================================================================
+
+Source: I appreciate what you're trying to do but please stop you can't make this better
+Target: Takk, men dere kan ikke trøste oss.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg setter pris på det.
+Metrics:
+{'bleu': 4.92, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 10.59, 'chrf++': 9.43, 'bert_f1': 0.75, 'length': 23.0, 'len_ratio': 0.66}
+- 0.6: Du kan ikke gjøre det bedre.
+Metrics:
+{'bleu': 10.92, 'r1': 0.27, 'r2': 0.15, 'rl': 0.27, 'chrF': 25.27, 'chrf++': 24.96, 'bert_f1': 0.77, 'length': 28.0, 'len_ratio': 0.8}
+- 0.7: Jeg setter pris på det du prøver.
+Metrics:
+{'bleu': 4.87, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 11.76, 'chrf++': 10.24, 'bert_f1': 0.72, 'length': 33.0, 'len_ratio': 0.94}
+- 0.8: Jeg setter pris på det du prøver å gjøre.
+Metrics:
+{'bleu': 4.2, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 11.86, 'chrf++': 10.25, 'bert_f1': 0.71, 'length': 41.0, 'len_ratio': 1.17}
+- 0.9: Jeg setter pris på det du prøver å gjøre.
+Metrics:
+{'bleu': 4.2, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 11.86, 'chrf++': 10.25, 'bert_f1': 0.71, 'length': 41.0, 'len_ratio': 1.17}
+- 1.0: Jeg setter pris på det du prøver å gjøre, men hold opp.
+Metrics:
+{'bleu': 6.29, 'r1': 0.1, 'r2': 0.0, 'rl': 0.1, 'chrF': 16.42, 'chrf++': 17.46, 'bert_f1': 0.72, 'length': 55.0, 'len_ratio': 1.57}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg setter pris på hva du prøver å gjøre, men stopp du kan ikke gjøre dette bedre
+Baseline metrics:
+{'bleu': 6.07, 'r1': 0.22, 'r2': 0.08, 'rl': 0.22, 'chrF': 27.63, 'chrf++': 27.92, 'bert_f1': 0.73, 'length': 81.0, 'len_ratio': 2.31}
+====================================================================================================
+
+Source: let's just try to avoid anything that makes them think about their project or science or Nobel prices or successes or failures
+Target: vi må unngå alt som kan minne om prosjektet deres, vitenskap, -priser eller nederlag.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi prøver å unngå alt som får dem til å tenke på prosjektet.
+Metrics:
+{'bleu': 9.69, 'r1': 0.37, 'r2': 0.16, 'rl': 0.37, 'chrF': 32.38, 'chrf++': 29.48, 'bert_f1': 0.79, 'length': 60.0, 'len_ratio': 0.71}
+- 0.6: La oss unngå alt som får dem til å tenke på prosjektet.
+Metrics:
+{'bleu': 9.6, 'r1': 0.31, 'r2': 0.17, 'rl': 0.31, 'chrF': 30.46, 'chrf++': 28.1, 'bert_f1': 0.77, 'length': 55.0, 'len_ratio': 0.65}
+- 0.7: La oss unngå alt som får dem til å tenke på prosjektet, vitenskapen eller Nobelprisene.
+Metrics:
+{'bleu': 10.52, 'r1': 0.34, 'r2': 0.15, 'rl': 0.34, 'chrF': 45.7, 'chrf++': 40.68, 'bert_f1': 0.82, 'length': 87.0, 'len_ratio': 1.02}
+- 0.8: La oss bare unngå alt som får dem til å tenke på prosjektet, vitenskapen, Nobelprisene eller suksessen.
+Metrics:
+{'bleu': 9.11, 'r1': 0.32, 'r2': 0.14, 'rl': 0.32, 'chrF': 45.07, 'chrf++': 40.68, 'bert_f1': 0.82, 'length': 103.0, 'len_ratio': 1.21}
+- 0.9: La oss prøve å unngå alt som får dem til å tenke på prosjektet, vitenskapen, Nobelprisene eller suksessene.
+Metrics:
+{'bleu': 8.64, 'r1': 0.31, 'r2': 0.13, 'rl': 0.31, 'chrF': 45.85, 'chrf++': 41.19, 'bert_f1': 0.82, 'length': 107.0, 'len_ratio': 1.26}
+- 1.0: La oss bare unngå alt som får dem til å tenke på prosjektet, vitenskapen eller Nobelprisene, suksessene eller fiaskoene.
+Metrics:
+{'bleu': 8.22, 'r1': 0.3, 'r2': 0.13, 'rl': 0.3, 'chrF': 44.15, 'chrf++': 39.86, 'bert_f1': 0.82, 'length': 120.0, 'len_ratio': 1.41}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: La oss bare prøve å unngå alt som får dem til å tenke på deres prosjekt eller vitenskap eller Nobelpriser eller suksess eller feil.
+Baseline metrics:
+{'bleu': 6.93, 'r1': 0.32, 'r2': 0.11, 'rl': 0.32, 'chrF': 47.45, 'chrf++': 41.47, 'bert_f1': 0.81, 'length': 131.0, 'len_ratio': 1.54}
+====================================================================================================
+
+Source: you can't have chicken fried steak first ting in the morning
+Target: Du kan ikke spise det til frokost!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 2.16, 'chrf++': 1.44, 'bert_f1': 0.6, 'length': 4.0, 'len_ratio': 0.12}
+- 0.6: Du kan ikke ha kyllingsteik.
+Metrics:
+{'bleu': 21.65, 'r1': 0.5, 'r2': 0.4, 'rl': 0.5, 'chrF': 30.89, 'chrf++': 31.91, 'bert_f1': 0.78, 'length': 28.0, 'len_ratio': 0.82}
+- 0.7: Du kan ikke ha kyllingsteik.
+Metrics:
+{'bleu': 21.65, 'r1': 0.5, 'r2': 0.4, 'rl': 0.5, 'chrF': 30.89, 'chrf++': 31.91, 'bert_f1': 0.78, 'length': 28.0, 'len_ratio': 0.82}
+- 0.8: Du kan ikke ha kyllingsteik først.
+Metrics:
+{'bleu': 21.19, 'r1': 0.43, 'r2': 0.33, 'rl': 0.43, 'chrF': 32.07, 'chrf++': 32.57, 'bert_f1': 0.77, 'length': 34.0, 'len_ratio': 1.0}
+- 0.9: Du kan ikke ha kyllingsteik i morgen.
+Metrics:
+{'bleu': 20.56, 'r1': 0.43, 'r2': 0.33, 'rl': 0.43, 'chrF': 31.01, 'chrf++': 31.53, 'bert_f1': 0.78, 'length': 37.0, 'len_ratio': 1.09}
+- 1.0: Du kan ikke ha kyllingsteik i morgen tidlig
+Metrics:
+{'bleu': 20.56, 'r1': 0.4, 'r2': 0.31, 'rl': 0.4, 'chrF': 31.6, 'chrf++': 32.04, 'bert_f1': 0.77, 'length': 43.0, 'len_ratio': 1.26}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: du kan ikke ha kylling steik biff første å spise om morgenen
+Baseline metrics:
+{'bleu': 7.5, 'r1': 0.42, 'r2': 0.24, 'rl': 0.42, 'chrF': 33.11, 'chrf++': 30.73, 'bert_f1': 0.72, 'length': 60.0, 'len_ratio': 1.76}
+====================================================================================================
+
+Source: it's a pep talk he made when he when he was a kid gave it to me years ago and told me to save it for a real emergency
+Target: Det er en motivasjonstale han spilte inn som gutt, - i tilfelle det skulle oppstå en nødsituasjon.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Det er en peppeprat han holdt da han var liten.
+Metrics:
+{'bleu': 7.66, 'r1': 0.3, 'r2': 0.16, 'rl': 0.3, 'chrF': 14.08, 'chrf++': 15.7, 'bert_f1': 0.75, 'length': 47.0, 'len_ratio': 0.48}
+- 0.6: Det er en peppeprat han holdt da han var liten.
+Metrics:
+{'bleu': 7.66, 'r1': 0.3, 'r2': 0.16, 'rl': 0.3, 'chrF': 14.08, 'chrf++': 15.7, 'bert_f1': 0.75, 'length': 47.0, 'len_ratio': 0.48}
+- 0.7: Det er en peppeprat han holdt da han var liten.
+Metrics:
+{'bleu': 7.66, 'r1': 0.3, 'r2': 0.16, 'rl': 0.3, 'chrF': 14.08, 'chrf++': 15.7, 'bert_f1': 0.75, 'length': 47.0, 'len_ratio': 0.48}
+- 0.8: Det var en peppeprat han ga meg da han var liten.
+Metrics:
+{'bleu': 2.67, 'r1': 0.21, 'r2': 0.0, 'rl': 0.21, 'chrF': 10.27, 'chrf++': 10.56, 'bert_f1': 0.73, 'length': 49.0, 'len_ratio': 0.5}
+- 0.9: Det er en peppeprat han holdt da han var liten ga meg den for mange år siden og ba meg spare den til en krise.
+Metrics:
+{'bleu': 6.39, 'r1': 0.24, 'r2': 0.1, 'rl': 0.24, 'chrF': 18.9, 'chrf++': 19.18, 'bert_f1': 0.7, 'length': 110.0, 'len_ratio': 1.12}
+- 1.0: Det er en pep-prat han gjorde da han var liten ga meg den for mange år siden og ba meg spare den til en krisesituasjon
+Metrics:
+{'bleu': 6.37, 'r1': 0.23, 'r2': 0.1, 'rl': 0.23, 'chrF': 25.64, 'chrf++': 23.64, 'bert_f1': 0.69, 'length': 118.0, 'len_ratio': 1.2}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Det er et pepp-prat han holdt da han var barn ga det til meg for mange år siden og sa til meg å lagre det til en ekte nødsituasjon
+Baseline metrics:
+{'bleu': 3.39, 'r1': 0.3, 'r2': 0.09, 'rl': 0.3, 'chrF': 29.51, 'chrf++': 26.35, 'bert_f1': 0.72, 'length': 130.0, 'len_ratio': 1.33}
+====================================================================================================
+
+Source: I tought so too I also thought superasymmerty was a good idea so what else am I wrong about
+Target: Jeg mente også at superasymmetri var en god idé. Jeg kan ha tatt feil om så mye.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg trodde det var en god idé.
+Metrics:
+{'bleu': 13.68, 'r1': 0.42, 'r2': 0.27, 'rl': 0.42, 'chrF': 21.88, 'chrf++': 24.05, 'bert_f1': 0.81, 'length': 30.0, 'len_ratio': 0.38}
+- 0.6: Jeg trodde også at superasymmerti var en god idé.
+Metrics:
+{'bleu': 18.99, 'r1': 0.54, 'r2': 0.33, 'rl': 0.54, 'chrF': 48.67, 'chrf++': 46.21, 'bert_f1': 0.87, 'length': 49.0, 'len_ratio': 0.61}
+- 0.7: Jeg trodde også at superasymmerti var en god idé.
+Metrics:
+{'bleu': 18.99, 'r1': 0.54, 'r2': 0.33, 'rl': 0.54, 'chrF': 48.67, 'chrf++': 46.21, 'bert_f1': 0.87, 'length': 49.0, 'len_ratio': 0.61}
+- 0.8: Jeg trodde også at superasymmerti var en god idé.
+Metrics:
+{'bleu': 18.99, 'r1': 0.54, 'r2': 0.33, 'rl': 0.54, 'chrF': 48.67, 'chrf++': 46.21, 'bert_f1': 0.87, 'length': 49.0, 'len_ratio': 0.61}
+- 0.9: Jeg trodde også at superasymmerty var en god idé.
+Metrics:
+{'bleu': 18.99, 'r1': 0.54, 'r2': 0.33, 'rl': 0.54, 'chrF': 47.19, 'chrf++': 45.1, 'bert_f1': 0.87, 'length': 49.0, 'len_ratio': 0.61}
+- 1.0: Jeg trodde også at superasymmerti var en god idé.
+Metrics:
+{'bleu': 18.99, 'r1': 0.54, 'r2': 0.33, 'rl': 0.54, 'chrF': 48.67, 'chrf++': 46.21, 'bert_f1': 0.87, 'length': 49.0, 'len_ratio': 0.61}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg hard så også jeg trodde superasymmerty var en god idé så hva annet er jeg feil om
+Baseline metrics:
+{'bleu': 16.74, 'r1': 0.57, 'r2': 0.24, 'rl': 0.51, 'chrF': 43.34, 'chrf++': 41.31, 'bert_f1': 0.77, 'length': 85.0, 'len_ratio': 1.06}
+====================================================================================================
+
+Source: I am following the example of seventeenth century philosopher René Descartes. he subjected all his believes to radical doubt so he could build a bed rock belief and build his cognitive life back up on firm principles
+Target: Jeg følger filosof René Descartes' eksempel. Han betvilte enhver formening, for å basere seg kun på det ubestridelige.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg følger eksempelet med filosofen René Descartes.
+Metrics:
+{'bleu': 2.59, 'r1': 0.38, 'r2': 0.25, 'rl': 0.38, 'chrF': 33.21, 'chrf++': 29.55, 'bert_f1': 0.75, 'length': 51.0, 'len_ratio': 0.43}
+- 0.6: Jeg følger eksemplet med filosofen René Descartes.
+Metrics:
+{'bleu': 2.59, 'r1': 0.38, 'r2': 0.25, 'rl': 0.38, 'chrF': 31.18, 'chrf++': 28.02, 'bert_f1': 0.73, 'length': 50.0, 'len_ratio': 0.42}
+- 0.7: Jeg følger filosof René Descartes' eksempel.
+Metrics:
+{'bleu': 13.53, 'r1': 0.56, 'r2': 0.52, 'rl': 0.56, 'chrF': 42.37, 'chrf++': 41.8, 'bert_f1': 0.8, 'length': 44.0, 'len_ratio': 0.37}
+- 0.8: Jeg følger eksempelet med filosof René Descartes.
+Metrics:
+{'bleu': 3.25, 'r1': 0.46, 'r2': 0.33, 'rl': 0.46, 'chrF': 35.72, 'chrf++': 32.77, 'bert_f1': 0.76, 'length': 49.0, 'len_ratio': 0.42}
+- 0.9: Jeg følger eksempelet med filosofen René Descartes i det 17. århundre.
+Metrics:
+{'bleu': 4.39, 'r1': 0.4, 'r2': 0.21, 'rl': 0.4, 'chrF': 35.55, 'chrf++': 32.29, 'bert_f1': 0.73, 'length': 70.0, 'len_ratio': 0.59}
+- 1.0: Jeg følger eksempelet med filosofen René Descartes i det syttende århundre.
+Metrics:
+{'bleu': 4.02, 'r1': 0.4, 'r2': 0.21, 'rl': 0.4, 'chrF': 36.59, 'chrf++': 32.52, 'bert_f1': 0.72, 'length': 75.0, 'len_ratio': 0.64}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg følger eksemplet med det syttende århundre filosof René Descartes. Han underkastet alle sine tro til radikal tvil så han kunne bygge en seng stein tro og bygge sitt kognitive liv tilbake på faste prinsipper
+Baseline metrics:
+{'bleu': 3.82, 'r1': 0.33, 'r2': 0.15, 'rl': 0.3, 'chrF': 40.19, 'chrf++': 36.79, 'bert_f1': 0.7, 'length': 210.0, 'len_ratio': 1.78}
+====================================================================================================
+
+Source: oh so yucky so yucky
+Target: Æsj! Altfor ekkelt!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Ja.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 0.0, 'chrf++': 0.0, 'bert_f1': 0.58, 'length': 3.0, 'len_ratio': 0.16}
+- 0.6: Så yucky
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.11, 'chrf++': 0.83, 'bert_f1': 0.66, 'length': 8.0, 'len_ratio': 0.42}
+- 0.7: Så yucky
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.11, 'chrf++': 0.83, 'bert_f1': 0.66, 'length': 8.0, 'len_ratio': 0.42}
+- 0.8: Så yucky
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.11, 'chrf++': 0.83, 'bert_f1': 0.66, 'length': 8.0, 'len_ratio': 0.42}
+- 0.9: Så yucky
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.11, 'chrf++': 0.83, 'bert_f1': 0.66, 'length': 8.0, 'len_ratio': 0.42}
+- 1.0: Så jævlig.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 2.16, 'chrf++': 1.62, 'bert_f1': 0.71, 'length': 10.0, 'len_ratio': 0.53}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Så yucky
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.11, 'chrf++': 0.83, 'bert_f1': 0.66, 'length': 8.0, 'len_ratio': 0.42}
+====================================================================================================
+
+Source: I didn't know you auditioned there
+Target: Gjennomførte du opptaksprøven?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.08, 'chrf++': 0.72, 'bert_f1': 0.59, 'length': 4.0, 'len_ratio': 0.13}
+- 0.6: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.08, 'chrf++': 0.72, 'bert_f1': 0.59, 'length': 4.0, 'len_ratio': 0.13}
+- 0.7: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 1.08, 'chrf++': 0.72, 'bert_f1': 0.59, 'length': 4.0, 'len_ratio': 0.13}
+- 0.8: Jeg visste ikke du var der.
+Metrics:
+{'bleu': 6.57, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 10.07, 'chrf++': 10.48, 'bert_f1': 0.67, 'length': 27.0, 'len_ratio': 0.9}
+- 0.9: Jeg visste ikke du var der.
+Metrics:
+{'bleu': 6.57, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 10.07, 'chrf++': 10.48, 'bert_f1': 0.67, 'length': 27.0, 'len_ratio': 0.9}
+- 1.0: Jeg visste ikke at du var der.
+Metrics:
+{'bleu': 5.52, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 9.24, 'chrf++': 9.76, 'bert_f1': 0.66, 'length': 30.0, 'len_ratio': 1.0}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg visste ikke du har prøvet der
+Baseline metrics:
+{'bleu': 6.57, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 17.97, 'chrf++': 16.33, 'bert_f1': 0.68, 'length': 33.0, 'len_ratio': 1.1}
+====================================================================================================
+
+Source: it's fine I don't need to be a member of the most elite magical society on the face of the earth
+Target: Jeg har intet behov for medlemskap i slik en eksklusiv trylleforening.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg trenger ikke være med i det magiske samfunnet.
+Metrics:
+{'bleu': 4.52, 'r1': 0.19, 'r2': 0.0, 'rl': 0.19, 'chrF': 16.96, 'chrf++': 15.96, 'bert_f1': 0.76, 'length': 50.0, 'len_ratio': 0.71}
+- 0.6: Jeg trenger ikke være med i verdens mest magiske samfunn.
+Metrics:
+{'bleu': 4.5, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 17.76, 'chrf++': 16.51, 'bert_f1': 0.76, 'length': 57.0, 'len_ratio': 0.81}
+- 0.7: Jeg trenger ikke være med i det mest elite magiske samfunnet.
+Metrics:
+{'bleu': 4.46, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 17.88, 'chrf++': 16.54, 'bert_f1': 0.76, 'length': 61.0, 'len_ratio': 0.87}
+- 0.8: Jeg trenger ikke være medlem av det mest elite magiske samfunnet.
+Metrics:
+{'bleu': 4.03, 'r1': 0.09, 'r2': 0.0, 'rl': 0.09, 'chrF': 21.17, 'chrf++': 17.97, 'bert_f1': 0.76, 'length': 65.0, 'len_ratio': 0.93}
+- 0.9: Jeg trenger ikke være med i det mest elite magiske samfunnet på jorda.
+Metrics:
+{'bleu': 3.74, 'r1': 0.16, 'r2': 0.0, 'rl': 0.16, 'chrF': 18.58, 'chrf++': 16.97, 'bert_f1': 0.74, 'length': 70.0, 'len_ratio': 1.0}
+- 1.0: Jeg trenger ikke være medlem av det mest elite magiske samfunnet.
+Metrics:
+{'bleu': 4.03, 'r1': 0.09, 'r2': 0.0, 'rl': 0.09, 'chrF': 21.17, 'chrf++': 17.97, 'bert_f1': 0.76, 'length': 65.0, 'len_ratio': 0.93}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Det er greit jeg ikke trenger å være medlem av det mest elite magiske samfunnet på jorda
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.07, 'r2': 0.0, 'rl': 0.07, 'chrF': 19.99, 'chrf++': 14.99, 'bert_f1': 0.69, 'length': 88.0, 'len_ratio': 1.26}
+====================================================================================================
+
+Source: you know what you should audition now
+Target: Du bør gjennomføre opptaksprøven.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nå vet du hva.
+Metrics:
+{'bleu': 10.68, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 4.48, 'chrf++': 6.02, 'bert_f1': 0.71, 'length': 14.0, 'len_ratio': 0.42}
+- 0.6: Du vet hva du bør prøve.
+Metrics:
+{'bleu': 8.64, 'r1': 0.4, 'r2': 0.31, 'rl': 0.4, 'chrF': 19.32, 'chrf++': 21.87, 'bert_f1': 0.77, 'length': 24.0, 'len_ratio': 0.73}
+- 0.7: Vet du hva du bør prøve?
+Metrics:
+{'bleu': 6.57, 'r1': 0.4, 'r2': 0.31, 'rl': 0.4, 'chrF': 17.5, 'chrf++': 15.61, 'bert_f1': 0.71, 'length': 24.0, 'len_ratio': 0.73}
+- 0.8: Vet du hva du bør prøve nå?
+Metrics:
+{'bleu': 5.52, 'r1': 0.38, 'r2': 0.29, 'rl': 0.38, 'chrF': 21.14, 'chrf++': 18.29, 'bert_f1': 0.72, 'length': 27.0, 'len_ratio': 0.82}
+- 0.9: Du vet hva du bør prøve nå.
+Metrics:
+{'bleu': 7.27, 'r1': 0.38, 'r2': 0.29, 'rl': 0.38, 'chrF': 22.94, 'chrf++': 24.42, 'bert_f1': 0.78, 'length': 27.0, 'len_ratio': 0.82}
+- 1.0: Du vet hva du bør prøve nå.
+Metrics:
+{'bleu': 7.27, 'r1': 0.38, 'r2': 0.29, 'rl': 0.38, 'chrF': 22.94, 'chrf++': 24.42, 'bert_f1': 0.78, 'length': 27.0, 'len_ratio': 0.82}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Du vet hva du bør prøve nå
+Baseline metrics:
+{'bleu': 7.81, 'r1': 0.38, 'r2': 0.29, 'rl': 0.38, 'chrF': 22.52, 'chrf++': 21.81, 'bert_f1': 0.71, 'length': 26.0, 'len_ratio': 0.79}
+====================================================================================================
+
+Source: look I know you still want this and I can help you all those pageants I did as a child I can teach you how to present yourself connect with the judges sabotage the competition
+Target: Jeg kan hjelpe. Missekåringene fra barndommen- -lærte meg sceneutstråling og sabotasje av konkurrenter.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg kan lære deg å presentere deg med dommerne.
+Metrics:
+{'bleu': 5.63, 'r1': 0.24, 'r2': 0.09, 'rl': 0.24, 'chrF': 16.98, 'chrf++': 16.02, 'bert_f1': 0.72, 'length': 47.0, 'len_ratio': 0.46}
+- 0.6: Jeg vet at du vil ha dette, og jeg kan hjelpe deg med å gjøre det.
+Metrics:
+{'bleu': 5.4, 'r1': 0.25, 'r2': 0.13, 'rl': 0.19, 'chrF': 18.58, 'chrf++': 18.51, 'bert_f1': 0.67, 'length': 66.0, 'len_ratio': 0.64}
+- 0.7: Jeg vet at du vil ha dette, og jeg kan hjelpe deg med å gjøre det som barn.
+Metrics:
+{'bleu': 4.81, 'r1': 0.24, 'r2': 0.12, 'rl': 0.18, 'chrF': 21.25, 'chrf++': 20.42, 'bert_f1': 0.68, 'length': 75.0, 'len_ratio': 0.73}
+- 0.8: Jeg vet at du fortsatt vil ha dette, og jeg kan hjelpe deg med å gjøre som barn.
+Metrics:
+{'bleu': 4.81, 'r1': 0.24, 'r2': 0.12, 'rl': 0.18, 'chrF': 22.18, 'chrf++': 21.07, 'bert_f1': 0.68, 'length': 80.0, 'len_ratio': 0.78}
+- 0.9: Jeg vet at du fortsatt vil ha dette, og jeg kan hjelpe deg med å gjøre som barn.
+Metrics:
+{'bleu': 4.81, 'r1': 0.24, 'r2': 0.12, 'rl': 0.18, 'chrF': 22.18, 'chrf++': 21.07, 'bert_f1': 0.68, 'length': 80.0, 'len_ratio': 0.78}
+- 1.0: Jeg vet at du fortsatt vil ha dette, og jeg kan hjelpe deg med å gjøre som barn. Jeg kan lære deg å presentere deg for dommerne.
+Metrics:
+{'bleu': 3.89, 'r1': 0.23, 'r2': 0.1, 'rl': 0.19, 'chrF': 29.17, 'chrf++': 27.21, 'bert_f1': 0.7, 'length': 128.0, 'len_ratio': 1.24}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg vet at du fortsatt ønsker dette og jeg kan hjelpe deg med alle de sidemenn jeg gjorde som et barn jeg kan lære deg hvordan du presenterer deg kontakt med dommerne sabotere konkurransen
+Baseline metrics:
+{'bleu': 2.59, 'r1': 0.2, 'r2': 0.08, 'rl': 0.16, 'chrF': 32.68, 'chrf++': 27.62, 'bert_f1': 0.66, 'length': 188.0, 'len_ratio': 1.83}
+====================================================================================================
+
+Source: oh we don't have to show it to them
+Target: De trenger ikke å se opptaket.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi trenger ikke.
+Metrics:
+{'bleu': 16.7, 'r1': 0.5, 'r2': 0.33, 'rl': 0.5, 'chrF': 42.21, 'chrf++': 39.84, 'bert_f1': 0.82, 'length': 16.0, 'len_ratio': 0.53}
+- 0.6: Vi trenger ikke vise dem
+Metrics:
+{'bleu': 14.32, 'r1': 0.4, 'r2': 0.25, 'rl': 0.4, 'chrF': 41.96, 'chrf++': 37.5, 'bert_f1': 0.77, 'length': 24.0, 'len_ratio': 0.8}
+- 0.7: Vi trenger ikke vise dem
+Metrics:
+{'bleu': 14.32, 'r1': 0.4, 'r2': 0.25, 'rl': 0.4, 'chrF': 41.96, 'chrf++': 37.5, 'bert_f1': 0.77, 'length': 24.0, 'len_ratio': 0.8}
+- 0.8: Vi trenger ikke vise dem
+Metrics:
+{'bleu': 14.32, 'r1': 0.4, 'r2': 0.25, 'rl': 0.4, 'chrF': 41.96, 'chrf++': 37.5, 'bert_f1': 0.77, 'length': 24.0, 'len_ratio': 0.8}
+- 0.9: Vi trenger ikke vise dem
+Metrics:
+{'bleu': 14.32, 'r1': 0.4, 'r2': 0.25, 'rl': 0.4, 'chrF': 41.96, 'chrf++': 37.5, 'bert_f1': 0.77, 'length': 24.0, 'len_ratio': 0.8}
+- 1.0: Vi trenger ikke vise dem det.
+Metrics:
+{'bleu': 14.54, 'r1': 0.36, 'r2': 0.22, 'rl': 0.36, 'chrF': 44.61, 'chrf++': 40.9, 'bert_f1': 0.83, 'length': 29.0, 'len_ratio': 0.97}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Vi trenger ikke vise dem det.
+Baseline metrics:
+{'bleu': 14.54, 'r1': 0.36, 'r2': 0.22, 'rl': 0.36, 'chrF': 44.61, 'chrf++': 40.9, 'bert_f1': 0.83, 'length': 29.0, 'len_ratio': 0.97}
+====================================================================================================
+
+Source: like they did with that movie that was not great
+Target: Det fungerte dårlig i filmen.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Som med filmen.
+Metrics:
+{'bleu': 19.38, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 24.08, 'chrf++': 25.29, 'bert_f1': 0.75, 'length': 15.0, 'len_ratio': 0.52}
+- 0.6: Som med filmen.
+Metrics:
+{'bleu': 19.38, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 24.08, 'chrf++': 25.29, 'bert_f1': 0.75, 'length': 15.0, 'len_ratio': 0.52}
+- 0.7: Det var ikke bra.
+Metrics:
+{'bleu': 10.4, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 8.18, 'chrf++': 10.5, 'bert_f1': 0.79, 'length': 17.0, 'len_ratio': 0.59}
+- 0.8: Det var ikke bra.
+Metrics:
+{'bleu': 10.4, 'r1': 0.2, 'r2': 0.0, 'rl': 0.2, 'chrF': 8.18, 'chrf++': 10.5, 'bert_f1': 0.79, 'length': 17.0, 'len_ratio': 0.59}
+- 0.9: Som med filmen som ikke var bra
+Metrics:
+{'bleu': 6.57, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 19.76, 'chrf++': 16.84, 'bert_f1': 0.7, 'length': 31.0, 'len_ratio': 1.07}
+- 1.0: Som de gjorde med den filmen.
+Metrics:
+{'bleu': 13.13, 'r1': 0.17, 'r2': 0.0, 'rl': 0.17, 'chrF': 25.11, 'chrf++': 25.3, 'bert_f1': 0.74, 'length': 29.0, 'len_ratio': 1.0}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: som de gjorde med filmen som ikke var bra
+Baseline metrics:
+{'bleu': 4.77, 'r1': 0.13, 'r2': 0.0, 'rl': 0.13, 'chrF': 19.75, 'chrf++': 16.71, 'bert_f1': 0.69, 'length': 41.0, 'len_ratio': 1.41}
+====================================================================================================
+
+Source: look this might seem strange but uh we thought it might help you get some closure if you had a chance to properly say goodbye to your paper
+Target: Dette kan lyde rart, men vi tenkte du kanskje burde ta farvel med teorien.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Det kan virke rart.
+Metrics:
+{'bleu': 1.56, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 11.43, 'chrf++': 11.29, 'bert_f1': 0.72, 'length': 19.0, 'len_ratio': 0.26}
+- 0.6: Det kan virke rart, men det kan hjelpe deg å få slutt.
+Metrics:
+{'bleu': 10.41, 'r1': 0.24, 'r2': 0.09, 'rl': 0.24, 'chrF': 26.11, 'chrf++': 25.33, 'bert_f1': 0.76, 'length': 54.0, 'len_ratio': 0.73}
+- 0.7: Dette kan virke rart, men det kan hjelpe deg å få en avslutning.
+Metrics:
+{'bleu': 12.04, 'r1': 0.31, 'r2': 0.17, 'rl': 0.31, 'chrF': 32.91, 'chrf++': 31.97, 'bert_f1': 0.77, 'length': 64.0, 'len_ratio': 0.86}
+- 0.8: Dette kan virke rart, men vi tenkte at det kunne hjelpe deg å få en avslutning.
+Metrics:
+{'bleu': 23.91, 'r1': 0.41, 'r2': 0.3, 'rl': 0.41, 'chrF': 43.21, 'chrf++': 42.57, 'bert_f1': 0.82, 'length': 79.0, 'len_ratio': 1.07}
+- 0.9: Dette kan virke rart, men vi tenkte at det kunne hjelpe deg å få en avslutning hvis du hadde sjansen til å si farvel til avisen din.
+Metrics:
+{'bleu': 15.15, 'r1': 0.41, 'r2': 0.22, 'rl': 0.41, 'chrF': 43.5, 'chrf++': 42.9, 'bert_f1': 0.79, 'length': 132.0, 'len_ratio': 1.78}
+- 1.0: Dette kan virke rart, men vi tenkte at det kunne hjelpe deg å få en avslutning hvis du hadde en sjanse til å si adjø til avisen din.
+Metrics:
+{'bleu': 14.23, 'r1': 0.35, 'r2': 0.21, 'rl': 0.35, 'chrF': 39.93, 'chrf++': 39.45, 'bert_f1': 0.78, 'length': 132.0, 'len_ratio': 1.78}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Dette kan virke rart, men vi trodde det kunne hjelpe deg å få noen avslutning hvis du hadde en sjanse til å korrekt si farvel til papiret ditt
+Baseline metrics:
+{'bleu': 10.29, 'r1': 0.35, 'r2': 0.16, 'rl': 0.35, 'chrF': 37.26, 'chrf++': 36.17, 'bert_f1': 0.76, 'length': 142.0, 'len_ratio': 1.92}
+====================================================================================================
+
+Source: wait why why did you just say you're too busy but then
+Target: Men du sa jo…
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vent.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 6.95, 'chrf++': 4.96, 'bert_f1': 0.62, 'length': 5.0, 'len_ratio': 0.38}
+- 0.6: Hvorfor sa du det?
+Metrics:
+{'bleu': 12.7, 'r1': 0.5, 'r2': 0.0, 'rl': 0.25, 'chrF': 12.42, 'chrf++': 15.3, 'bert_f1': 0.62, 'length': 18.0, 'len_ratio': 1.38}
+- 0.7: Hvorfor sa du at du var opptatt?
+Metrics:
+{'bleu': 6.57, 'r1': 0.36, 'r2': 0.0, 'rl': 0.18, 'chrF': 9.05, 'chrf++': 12.05, 'bert_f1': 0.61, 'length': 32.0, 'len_ratio': 2.46}
+- 0.8: Hvorfor sa du at du var for opptatt?
+Metrics:
+{'bleu': 5.67, 'r1': 0.33, 'r2': 0.0, 'rl': 0.17, 'chrF': 8.65, 'chrf++': 11.53, 'bert_f1': 0.62, 'length': 36.0, 'len_ratio': 2.77}
+- 0.9: Hvorfor sa du at du var for opptatt?
+Metrics:
+{'bleu': 5.67, 'r1': 0.33, 'r2': 0.0, 'rl': 0.17, 'chrF': 8.65, 'chrf++': 11.53, 'bert_f1': 0.62, 'length': 36.0, 'len_ratio': 2.77}
+- 1.0: Hvorfor sa du at du var for opptatt?
+Metrics:
+{'bleu': 5.67, 'r1': 0.33, 'r2': 0.0, 'rl': 0.17, 'chrF': 8.65, 'chrf++': 11.53, 'bert_f1': 0.62, 'length': 36.0, 'len_ratio': 2.77}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: vent hvorfor du bare sier du er for opptatt men da
+Baseline metrics:
+{'bleu': 3.75, 'r1': 0.27, 'r2': 0.0, 'rl': 0.13, 'chrF': 11.82, 'chrf++': 11.26, 'bert_f1': 0.64, 'length': 50.0, 'len_ratio': 3.85}
+====================================================================================================
+
+Source: I don't think so
+Target: Nei!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 1.0, 'r2': 0.0, 'rl': 1.0, 'chrF': 47.92, 'chrf++': 40.28, 'bert_f1': 0.84, 'length': 4.0, 'len_ratio': 1.0}
+- 0.6: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 1.0, 'r2': 0.0, 'rl': 1.0, 'chrF': 47.92, 'chrf++': 40.28, 'bert_f1': 0.84, 'length': 4.0, 'len_ratio': 1.0}
+- 0.7: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 1.0, 'r2': 0.0, 'rl': 1.0, 'chrF': 47.92, 'chrf++': 40.28, 'bert_f1': 0.84, 'length': 4.0, 'len_ratio': 1.0}
+- 0.8: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 1.0, 'r2': 0.0, 'rl': 1.0, 'chrF': 47.92, 'chrf++': 40.28, 'bert_f1': 0.84, 'length': 4.0, 'len_ratio': 1.0}
+- 0.9: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 1.0, 'r2': 0.0, 'rl': 1.0, 'chrF': 47.92, 'chrf++': 40.28, 'bert_f1': 0.84, 'length': 4.0, 'len_ratio': 1.0}
+- 1.0: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 1.0, 'r2': 0.0, 'rl': 1.0, 'chrF': 47.92, 'chrf++': 40.28, 'bert_f1': 0.84, 'length': 4.0, 'len_ratio': 1.0}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg tror ikke det
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 8.33, 'chrf++': 5.56, 'bert_f1': 0.66, 'length': 17.0, 'len_ratio': 4.25}
+====================================================================================================
+
+Source: It's kinda beautiful isn't it?
+Target: Det er jo vakkert.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Den er vakker.
+Metrics:
+{'bleu': 14.79, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 36.19, 'chrf++': 32.35, 'bert_f1': 0.86, 'length': 14.0, 'len_ratio': 0.78}
+- 0.6: Den er vakker.
+Metrics:
+{'bleu': 14.79, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 36.19, 'chrf++': 32.35, 'bert_f1': 0.86, 'length': 14.0, 'len_ratio': 0.78}
+- 0.7: Den er vakker.
+Metrics:
+{'bleu': 14.79, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 36.19, 'chrf++': 32.35, 'bert_f1': 0.86, 'length': 14.0, 'len_ratio': 0.78}
+- 0.8: Er den ikke vakker?
+Metrics:
+{'bleu': 0.0, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 29.5, 'chrf++': 22.12, 'bert_f1': 0.79, 'length': 19.0, 'len_ratio': 1.06}
+- 0.9: Det er vakkert.
+Metrics:
+{'bleu': 35.19, 'r1': 0.86, 'r2': 0.4, 'rl': 0.86, 'chrF': 63.36, 'chrf++': 64.53, 'bert_f1': 0.92, 'length': 15.0, 'len_ratio': 0.83}
+- 1.0: Er den ikke vakker?
+Metrics:
+{'bleu': 0.0, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 29.5, 'chrf++': 22.12, 'bert_f1': 0.79, 'length': 19.0, 'len_ratio': 1.06}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Det er ganske vakkert er det ikke?
+Baseline metrics:
+{'bleu': 12.22, 'r1': 0.55, 'r2': 0.22, 'rl': 0.55, 'chrF': 44.38, 'chrf++': 42.77, 'bert_f1': 0.84, 'length': 34.0, 'len_ratio': 1.89}
+====================================================================================================
+
+Source: looks like we both had theories that were wrong
+Target: Vi fremmet visst begge feilaktige teorier.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi hadde begge teorier.
+Metrics:
+{'bleu': 17.03, 'r1': 0.6, 'r2': 0.0, 'rl': 0.6, 'chrF': 32.64, 'chrf++': 34.37, 'bert_f1': 0.86, 'length': 23.0, 'len_ratio': 0.55}
+- 0.6: Vi hadde begge teorier.
+Metrics:
+{'bleu': 17.03, 'r1': 0.6, 'r2': 0.0, 'rl': 0.6, 'chrF': 32.64, 'chrf++': 34.37, 'bert_f1': 0.86, 'length': 23.0, 'len_ratio': 0.55}
+- 0.7: Vi hadde begge teorier som tok feil.
+Metrics:
+{'bleu': 7.81, 'r1': 0.46, 'r2': 0.0, 'rl': 0.46, 'chrF': 34.83, 'chrf++': 33.17, 'bert_f1': 0.84, 'length': 36.0, 'len_ratio': 0.86}
+- 0.8: Vi hadde begge teorier som var feil.
+Metrics:
+{'bleu': 7.81, 'r1': 0.46, 'r2': 0.0, 'rl': 0.46, 'chrF': 34.83, 'chrf++': 33.17, 'bert_f1': 0.84, 'length': 36.0, 'len_ratio': 0.86}
+- 0.9: Vi hadde begge teorier som var feil.
+Metrics:
+{'bleu': 7.81, 'r1': 0.46, 'r2': 0.0, 'rl': 0.46, 'chrF': 34.83, 'chrf++': 33.17, 'bert_f1': 0.84, 'length': 36.0, 'len_ratio': 0.86}
+- 1.0: Vi hadde begge teorier som tok feil.
+Metrics:
+{'bleu': 7.81, 'r1': 0.46, 'r2': 0.0, 'rl': 0.46, 'chrF': 34.83, 'chrf++': 33.17, 'bert_f1': 0.84, 'length': 36.0, 'len_ratio': 0.86}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: ser ut som vi begge hadde teorier som var feil
+Baseline metrics:
+{'bleu': 4.99, 'r1': 0.37, 'r2': 0.0, 'rl': 0.37, 'chrF': 32.35, 'chrf++': 27.62, 'bert_f1': 0.73, 'length': 46.0, 'len_ratio': 1.1}
+====================================================================================================
+
+Source: look I get that you're scared but we just have to push past that
+Target: Du må overvinne frykten!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Du er redd.
+Metrics:
+{'bleu': 12.44, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 7.27, 'chrf++': 8.13, 'bert_f1': 0.76, 'length': 11.0, 'len_ratio': 0.46}
+- 0.6: Du er redd.
+Metrics:
+{'bleu': 12.44, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 7.27, 'chrf++': 8.13, 'bert_f1': 0.76, 'length': 11.0, 'len_ratio': 0.46}
+- 0.7: Jeg forstår at du er redd.
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 8.77, 'chrf++': 6.58, 'bert_f1': 0.75, 'length': 26.0, 'len_ratio': 1.08}
+- 0.8: Jeg skjønner at du er redd.
+Metrics:
+{'bleu': 0.0, 'r1': 0.18, 'r2': 0.0, 'rl': 0.18, 'chrF': 11.2, 'chrf++': 8.4, 'bert_f1': 0.74, 'length': 27.0, 'len_ratio': 1.12}
+- 0.9: Jeg skjønner at du er redd, men vi må gå forbi det
+Metrics:
+{'bleu': 3.09, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 16.49, 'chrf++': 14.3, 'bert_f1': 0.73, 'length': 50.0, 'len_ratio': 2.08}
+- 1.0: Jeg skjønner at du er redd, men vi må bare gå forbi det
+Metrics:
+{'bleu': 2.84, 'r1': 0.22, 'r2': 0.0, 'rl': 0.22, 'chrF': 15.97, 'chrf++': 13.85, 'bert_f1': 0.72, 'length': 55.0, 'len_ratio': 2.29}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Ser jeg at du er redd, men vi må bare presse forbi det
+Baseline metrics:
+{'bleu': 2.84, 'r1': 0.24, 'r2': 0.0, 'rl': 0.24, 'chrF': 12.7, 'chrf++': 11.4, 'bert_f1': 0.72, 'length': 54.0, 'len_ratio': 2.25}
+====================================================================================================
+
+Source: Howard and I have been working really hard on his audition so it would be helpful to get another set of eyes on it
+Target: Bedøm gjerne Howards opptaksopptreden.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Vi har jobbet hardt med prøven.
+Metrics:
+{'bleu': 6.57, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 13.19, 'chrf++': 12.32, 'bert_f1': 0.7, 'length': 31.0, 'len_ratio': 0.82}
+- 0.6: Howard og jeg har jobbet hardt med prøven.
+Metrics:
+{'bleu': 4.77, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 23.51, 'chrf++': 19.9, 'bert_f1': 0.71, 'length': 42.0, 'len_ratio': 1.11}
+- 0.7: Howard og jeg har jobbet hardt med auditionen.
+Metrics:
+{'bleu': 4.77, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 22.98, 'chrf++': 19.47, 'bert_f1': 0.68, 'length': 46.0, 'len_ratio': 1.21}
+- 0.8: Howard og jeg har jobbet hardt med prøven.
+Metrics:
+{'bleu': 4.77, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 23.51, 'chrf++': 19.9, 'bert_f1': 0.71, 'length': 42.0, 'len_ratio': 1.11}
+- 0.9: Howard og jeg har jobbet hardt med auditionen hans.
+Metrics:
+{'bleu': 4.2, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 21.97, 'chrf++': 18.64, 'bert_f1': 0.69, 'length': 51.0, 'len_ratio': 1.34}
+- 1.0: Howard og jeg har jobbet hardt på auditionen hans, så det ville vært nyttig å få et sett til
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 19.1, 'chrf++': 14.33, 'bert_f1': 0.66, 'length': 92.0, 'len_ratio': 2.42}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Howard og jeg har jobbet veldig hardt på prøven hans så det ville vært nyttig å få et nytt sett øyne på den
+Baseline metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 19.65, 'chrf++': 14.74, 'bert_f1': 0.65, 'length': 107.0, 'len_ratio': 2.82}
+====================================================================================================
+
+Source: I'm the great Howdini and it's an honor to be auditioning at the Magical Castle
+Target: Hei! Jeg er den store Howdini! Det er en ære å være her!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg er den store Howdini.
+Metrics:
+{'bleu': 14.35, 'r1': 0.56, 'r2': 0.5, 'rl': 0.56, 'chrF': 47.32, 'chrf++': 43.84, 'bert_f1': 0.83, 'length': 25.0, 'len_ratio': 0.45}
+- 0.6: Jeg er den store Howdini.
+Metrics:
+{'bleu': 14.35, 'r1': 0.56, 'r2': 0.5, 'rl': 0.56, 'chrF': 47.32, 'chrf++': 43.84, 'bert_f1': 0.83, 'length': 25.0, 'len_ratio': 0.45}
+- 0.7: Jeg er den store Howdini.
+Metrics:
+{'bleu': 14.35, 'r1': 0.56, 'r2': 0.5, 'rl': 0.56, 'chrF': 47.32, 'chrf++': 43.84, 'bert_f1': 0.83, 'length': 25.0, 'len_ratio': 0.45}
+- 0.8: Jeg er den store Howdini.
+Metrics:
+{'bleu': 14.35, 'r1': 0.56, 'r2': 0.5, 'rl': 0.56, 'chrF': 47.32, 'chrf++': 43.84, 'bert_f1': 0.83, 'length': 25.0, 'len_ratio': 0.45}
+- 0.9: Det er en ære å være audition på Magical Castle.
+Metrics:
+{'bleu': 29.31, 'r1': 0.52, 'r2': 0.48, 'rl': 0.52, 'chrF': 35.41, 'chrf++': 36.09, 'bert_f1': 0.71, 'length': 48.0, 'len_ratio': 0.86}
+- 1.0: Det er en ære å være audition på Magical Castle.
+Metrics:
+{'bleu': 29.31, 'r1': 0.52, 'r2': 0.48, 'rl': 0.52, 'chrF': 35.41, 'chrf++': 36.09, 'bert_f1': 0.71, 'length': 48.0, 'len_ratio': 0.86}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg er den store Howdini og det er en ære å være privilegert på det magiske slottet
+Baseline metrics:
+{'bleu': 42.82, 'r1': 0.73, 'r2': 0.64, 'rl': 0.73, 'chrF': 64.44, 'chrf++': 62.93, 'bert_f1': 0.83, 'length': 83.0, 'len_ratio': 1.48}
+====================================================================================================
+
+Source: I'm not gonna audition
+Target: Jeg gir opp.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 8.52, 'chrf++': 10.32, 'bert_f1': 0.72, 'length': 4.0, 'len_ratio': 0.33}
+- 0.6: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 8.52, 'chrf++': 10.32, 'bert_f1': 0.72, 'length': 4.0, 'len_ratio': 0.33}
+- 0.7: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 8.52, 'chrf++': 10.32, 'bert_f1': 0.72, 'length': 4.0, 'len_ratio': 0.33}
+- 0.8: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 8.52, 'chrf++': 10.32, 'bert_f1': 0.72, 'length': 4.0, 'len_ratio': 0.33}
+- 0.9: Nei.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 8.52, 'chrf++': 10.32, 'bert_f1': 0.72, 'length': 4.0, 'len_ratio': 0.33}
+- 1.0: Jeg skal ikke prøve
+Metrics:
+{'bleu': 15.97, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 14.01, 'chrf++': 13.75, 'bert_f1': 0.77, 'length': 19.0, 'len_ratio': 1.58}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Jeg skal ikke prøve
+Baseline metrics:
+{'bleu': 15.97, 'r1': 0.25, 'r2': 0.0, 'rl': 0.25, 'chrF': 14.01, 'chrf++': 13.75, 'bert_f1': 0.77, 'length': 19.0, 'len_ratio': 1.58}
+====================================================================================================
+
+Source: hey this isn't about me I just wanted you to have your dream and I wanted to control everything about how you looked and acted so your victory was mine
+Target: Jeg ville bare virkeliggjøre din drøm, - og kontrollere alt, så din seier ville bli min seier.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Jeg ville bare at du skulle drømme.
+Metrics:
+{'bleu': 4.93, 'r1': 0.31, 'r2': 0.17, 'rl': 0.31, 'chrF': 21.07, 'chrf++': 20.15, 'bert_f1': 0.78, 'length': 35.0, 'len_ratio': 0.37}
+- 0.6: Jeg ville bare at du skulle ha drømmen din.
+Metrics:
+{'bleu': 6.53, 'r1': 0.36, 'r2': 0.15, 'rl': 0.36, 'chrF': 22.39, 'chrf++': 21.74, 'bert_f1': 0.79, 'length': 43.0, 'len_ratio': 0.46}
+- 0.7: Jeg ville bare at du skulle drømme, og jeg ville kontrollere hvordan du så ut og opptrådte.
+Metrics:
+{'bleu': 9.41, 'r1': 0.43, 'r2': 0.11, 'rl': 0.38, 'chrF': 36.76, 'chrf++': 34.58, 'bert_f1': 0.78, 'length': 91.0, 'len_ratio': 0.97}
+- 0.8: Jeg ville bare at du skulle få drømmen din og kontrollere hvordan du så ut og handlet.
+Metrics:
+{'bleu': 10.12, 'r1': 0.44, 'r2': 0.18, 'rl': 0.39, 'chrF': 36.64, 'chrf++': 34.6, 'bert_f1': 0.78, 'length': 86.0, 'len_ratio': 0.91}
+- 0.9: Jeg ville bare at du skulle få drømmen din. Jeg ville kontrollere alt om hvordan du så ut og handlet.
+Metrics:
+{'bleu': 9.61, 'r1': 0.51, 'r2': 0.16, 'rl': 0.36, 'chrF': 39.17, 'chrf++': 37.44, 'bert_f1': 0.78, 'length': 101.0, 'len_ratio': 1.07}
+- 1.0: Jeg ville bare at du skulle få drømmen din. Jeg ville kontrollere hvordan du så ut og oppførte deg.
+Metrics:
+{'bleu': 8.9, 'r1': 0.46, 'r2': 0.11, 'rl': 0.31, 'chrF': 37.47, 'chrf++': 34.97, 'bert_f1': 0.77, 'length': 99.0, 'len_ratio': 1.05}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: Hei dette handler ikke om meg jeg ville bare at du skulle ha din drøm og jeg ville kontrollere alt om hvordan du så og handlet så din seier var min
+Baseline metrics:
+{'bleu': 7.94, 'r1': 0.56, 'r2': 0.33, 'rl': 0.52, 'chrF': 48.08, 'chrf++': 45.77, 'bert_f1': 0.76, 'length': 147.0, 'len_ratio': 1.56}
+====================================================================================================
+
+Source: would you be amazed if your watch survived that pounding I think you would BEHOLD
+Target: Det ville nok forbause deg om uret ditt overlede det! Ta i øyesyn!
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- 0.5: Forbløff meg hvis klokken overlevde.
+Metrics:
+{'bleu': 0.0, 'r1': 0.0, 'r2': 0.0, 'rl': 0.0, 'chrF': 17.14, 'chrf++': 12.85, 'bert_f1': 0.69, 'length': 36.0, 'len_ratio': 0.55}
+- 0.6: Jeg tror du ville overlevd.
+Metrics:
+{'bleu': 1.81, 'r1': 0.11, 'r2': 0.0, 'rl': 0.11, 'chrF': 16.83, 'chrf++': 13.57, 'bert_f1': 0.69, 'length': 27.0, 'len_ratio': 0.41}
+- 0.7: Ville du blitt overrasket hvis uret overlevde det?
+Metrics:
+{'bleu': 2.91, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 30.42, 'chrf++': 24.65, 'bert_f1': 0.72, 'length': 50.0, 'len_ratio': 0.76}
+- 0.8: Ville du blitt overrasket hvis klokka overlevde det?
+Metrics:
+{'bleu': 2.45, 'r1': 0.19, 'r2': 0.0, 'rl': 0.19, 'chrF': 27.86, 'chrf++': 21.81, 'bert_f1': 0.7, 'length': 52.0, 'len_ratio': 0.79}
+- 0.9: Ville du blitt forbauset hvis uret overlevde det?
+Metrics:
+{'bleu': 2.91, 'r1': 0.29, 'r2': 0.0, 'rl': 0.29, 'chrF': 36.3, 'chrf++': 29.05, 'bert_f1': 0.74, 'length': 49.0, 'len_ratio': 0.74}
+- 1.0: Ville du blitt forbløffet hvis klokka overlevde det pounding jeg tror du ville
+Metrics:
+{'bleu': 3.15, 'r1': 0.15, 'r2': 0.0, 'rl': 0.15, 'chrF': 28.01, 'chrf++': 22.75, 'bert_f1': 0.68, 'length': 78.0, 'len_ratio': 1.18}
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Baseline: ville du bli forbauset hvis klokken overlevde at pounding jeg tror du ville BHOLDE
+Baseline metrics:
+{'bleu': 2.64, 'r1': 0.07, 'r2': 0.0, 'rl': 0.07, 'chrF': 30.83, 'chrf++': 23.98, 'bert_f1': 0.69, 'length': 82.0, 'len_ratio': 1.24}
+====================================================================================================
+

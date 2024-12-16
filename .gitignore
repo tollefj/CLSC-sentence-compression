@@ -1,0 +1,12 @@
+*.csv
+*.pt
+OUTPUT*
+wandb/
+*.aux
+*.out
+*.gz
+*.pdf
+*.bbl
+*.blg
+*.log
+__pycache__/

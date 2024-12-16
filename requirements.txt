@@ -1,0 +1,12 @@
+pandas
+matplotlib
+absl-py
+sacrebleu
+sacremoses
+rouge-score
+bert_score
+evaluate
+swifter
+sentencepiece
+sentence-transformers
+accelerate
