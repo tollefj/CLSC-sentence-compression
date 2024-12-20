@@ -38,26 +38,4 @@ python finetune_CLSC_MM.py
 
 See the results in the [figures-and-tables](figures-and-tables) folder. E.g., the CM outputs are found in [`print_results_CLSC_CM_opensub.ipynb`](figures-and-tables/print_results_CLSC_CM_opensub.ipynb).
 
-At the very end of these files, you can "peek" results with random indexes. Example output:
-
-```python
-index: 343
-source
->>nob<< Your ankle seems to be fine. Just a mild sprain, so this should help. Great.
-
-target
-Åh gud.
-
-baseline
-Det ser ut til at ankelen din har det fint, bare en mild fordypning, så dette burde hjelpe.
-
-0.5
-Ankelen din virker bra.
-
-0.6
-Ankelen din virker bra, så dette hjelper.
-
-0.7
-Det er bare en mild forsvinning, så dette burde hjelpe.
-
-```
+At the very end of these files, you can "peek" results with random indexes.
